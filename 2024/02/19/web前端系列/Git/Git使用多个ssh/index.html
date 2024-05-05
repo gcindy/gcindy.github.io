@@ -16,12 +16,12 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Mac OS 下配置多个 SSH Key   git 基础教程 $\Rightarrow$ [[Git的使用]]  1、取消全局绑定的账号1git config –global –unset user.name  1git config –global –unset user.emai  2、生成多个 ssh key3、在 github、码云等平台绑定创建的 ssh key4、 在.ssh&amp;#x">
+    <meta name="description" content="Mac OS 下配置多个 SSH Key   git 基础教程 \(\Rightarrow\) [[Git的使用]]  1、取消全局绑定的账号 1git config –global –unset user.name 1git config –global –unset user.emai 2、生成多个 ssh key 3、在 github、码云等平台绑定创建的 ssh key 4、 在.ssh">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git使用多个ssh">
 <meta property="og:url" content="http://example.com/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Mac OS 下配置多个 SSH Key   git 基础教程 $\Rightarrow$ [[Git的使用]]  1、取消全局绑定的账号1git config –global –unset user.name  1git config –global –unset user.emai  2、生成多个 ssh key3、在 github、码云等平台绑定创建的 ssh key4、 在.ssh&amp;#x">
+<meta property="og:description" content="Mac OS 下配置多个 SSH Key   git 基础教程 \(\Rightarrow\) [[Git的使用]]  1、取消全局绑定的账号 1git config –global –unset user.name 1git config –global –unset user.emai 2、生成多个 ssh key 3、在 github、码云等平台绑定创建的 ssh key 4、 在.ssh">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-02-19T10:09:00.000Z">
 <meta property="article:modified_time" content="2024-04-22T02:29:01.422Z">
@@ -115,7 +115,7 @@
 
 
   
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 7.2.0"></head>
 
 
 <body>
@@ -241,7 +241,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          161 words
+          160 words
         
       </span>
     
@@ -311,25 +311,29 @@
               <div class="markdown-body">
                 
                 <blockquote>
-<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017945878">Mac OS 下配置多个 SSH Key</a></p>
+<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017945878">Mac OS
+下配置多个 SSH Key</a></p>
 </blockquote>
 <ul>
-<li>git 基础教程 $\Rightarrow$ [[Git的使用]]</li>
+<li>git 基础教程 <span class="math inline">\(\Rightarrow\)</span>
+[[Git的使用]]</li>
 </ul>
-<h1 id="1、取消全局绑定的账号"><a href="#1、取消全局绑定的账号" class="headerlink" title="1、取消全局绑定的账号"></a>1、取消全局绑定的账号</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ssh">git config –global –unset user.name<br></code></pre></td></tr></table></figure>
-
+<h1 id="取消全局绑定的账号">1、取消全局绑定的账号</h1>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ssh">git config –global –unset user.name<br></code></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ssh">git config –global –unset user.emai<br></code></pre></td></tr></table></figure>
-
-<h1 id="2、生成多个-ssh-key"><a href="#2、生成多个-ssh-key" class="headerlink" title="2、生成多个 ssh key"></a>2、生成多个 ssh key</h1><h1 id="3、在-github、码云等平台绑定创建的-ssh-key"><a href="#3、在-github、码云等平台绑定创建的-ssh-key" class="headerlink" title="3、在 github、码云等平台绑定创建的 ssh key"></a>3、在 github、码云等平台绑定创建的 ssh key</h1><h1 id="4、-在-ssh-config-文件中进行配置"><a href="#4、-在-ssh-config-文件中进行配置" class="headerlink" title="4、 在.ssh&#x2F;config 文件中进行配置"></a>4、 在.ssh&#x2F;config 文件中进行配置</h1><p>[注释]：若没有 config 文件，在.ssh 文件中创建</p>
+<h1 id="生成多个-ssh-key">2、生成多个 ssh key</h1>
+<h1 id="在-github码云等平台绑定创建的-ssh-key">3、在
+github、码云等平台绑定创建的 ssh key</h1>
+<h1 id="在.sshconfig-文件中进行配置">4、 在.ssh/config
+文件中进行配置</h1>
+<p>[注释]：若没有 config 文件，在.ssh 文件中创建</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ssh">touch config<br></code></pre></td></tr></table></figure>
-
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs ssh"><br>// 配置<br><br>// Host随便写，最后测试连接的名字<br><br>// HostName写对应的地址（如果是公司的域名:110.123.123那么这⾥就是110.123.123）<br><br>// IdentityFile 你⽣成的ssh key名字<br><br># github 3142289320@qq.com<br><br>Host github.com<br><br>HostName github.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa<br><br># gitee 账号邮箱<br><br>Host gitee.com<br><br>HostName gitee.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa_2<br><br></code></pre></td></tr></table></figure>
-
-<h1 id="5、-添加-ssh-key-到系统"><a href="#5、-添加-ssh-key-到系统" class="headerlink" title="5、 添加 ssh key 到系统"></a>5、 添加 ssh key 到系统</h1><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa</span><br></code></pre></td></tr></table></figure>
-
+<h1 id="添加-ssh-key-到系统">5、 添加 ssh key 到系统</h1>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa</span><br></code></pre></td></tr></table></figure>
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa_2</span><br></code></pre></td></tr></table></figure>
-
-<h1 id="6、-测试"><a href="#6、-测试" class="headerlink" title="6、 测试"></a>6、 测试</h1><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-comment"># 测试 Github</span><br><span class="hljs-attribute">ssh</span> -T git<span class="hljs-variable">@github</span>.com<br><br><br><br><br></code></pre></td></tr></table></figure>
+<h1 id="测试">6、 测试</h1>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-comment"># 测试 Github</span><br><span class="hljs-attribute">ssh</span> -T git<span class="hljs-variable">@github</span>.com<br><br><br><br><br></code></pre></td></tr></table></figure>
 
                 
               </div>

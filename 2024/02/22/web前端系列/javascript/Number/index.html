@@ -16,12 +16,12 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Number.isFinite(val) $\Rightarrow$ 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber &#x3D; (val) &#x3D;&gt; &amp;#123;  console.log(&amp;#x27;isFiniteNumber&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt;&amp;#x27;, Number.isFinite(val));&amp;#125;;&#x2F;&#x2F; t">
+    <meta name="description" content="Number.isFinite(val) \(\Rightarrow\) 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber &#x3D; (val) &#x3D;&gt; &#123;  console.log(&#x27;isFiniteNumber&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt;&#x27;, Number.isFinite(val));&#125;;&#x2F;&#x2F;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Number">
 <meta property="og:url" content="http://example.com/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Number/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Number.isFinite(val) $\Rightarrow$ 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber &#x3D; (val) &#x3D;&gt; &amp;#123;  console.log(&amp;#x27;isFiniteNumber&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt;&amp;#x27;, Number.isFinite(val));&amp;#125;;&#x2F;&#x2F; t">
+<meta property="og:description" content="Number.isFinite(val) \(\Rightarrow\) 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber &#x3D; (val) &#x3D;&gt; &#123;  console.log(&#x27;isFiniteNumber&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt;&#x27;, Number.isFinite(val));&#125;;&#x2F;&#x2F;">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-02-22T10:09:00.000Z">
 <meta property="article:modified_time" content="2024-04-22T02:29:01.424Z">
@@ -115,7 +115,7 @@
 
 
   
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 7.2.0"></head>
 
 
 <body>
@@ -311,47 +311,48 @@
               <div class="markdown-body">
                 
                 <ul>
-<li>Number.isFinite(val) $\Rightarrow$ 检测指定参数是否为无穷大</li>
+<li>Number.isFinite(val) <span
+class="math inline">\(\Rightarrow\)</span> 检测指定参数是否为无穷大</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">isFiniteNumber</span> = (<span class="hljs-params">val</span>) =&gt; &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;isFiniteNumber=====&gt;&gt;&gt;&#x27;</span>, <span class="hljs-title class_">Number</span>.<span class="hljs-built_in">isFinite</span>(val));<br>&#125;;<br><span class="hljs-comment">// true</span><br>isFiniteNumber(<span class="hljs-number">30</span>);<br><span class="hljs-comment">// true</span><br>isFiniteNumber(<span class="hljs-number">30.05</span>);<br><span class="hljs-comment">// false</span><br>isFiniteNumber(<span class="hljs-number">1</span> / <span class="hljs-number">0</span>);<br><span class="hljs-comment">// false</span><br>isFiniteNumber(<span class="hljs-string">&#x27;sasa&#x27;</span>);<br><span class="hljs-comment">// false</span><br>isFiniteNumber(<span class="hljs-literal">true</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>Number.isInteger(val) $\Rightarrow$ 判断传入值是否为整数</li>
+<li>Number.isInteger(val) <span
+class="math inline">\(\Rightarrow\)</span> 判断传入值是否为整数</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberIsInteger</span>(<span class="hljs-params">val</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberIsInteger=====&gt;&gt;&gt;&#x27;</span>, <span class="hljs-title class_">Number</span>.<span class="hljs-title function_">isInteger</span>(val));<br>&#125;<br><span class="hljs-comment">// true</span><br><span class="hljs-title function_">numberIsInteger</span>(<span class="hljs-number">20</span>);<br><span class="hljs-comment">// false</span><br><span class="hljs-title function_">numberIsInteger</span>(<span class="hljs-number">20.05</span>);<br><span class="hljs-comment">// true</span><br><span class="hljs-title function_">numberIsInteger</span>(-<span class="hljs-number">20</span>);<br><span class="hljs-comment">// false</span><br><span class="hljs-title function_">numberIsInteger</span>(<span class="hljs-string">&#x27;20&#x27;</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>Number.isNaN(val) $\Rightarrow$</li>
+<li>Number.isNaN(val) <span
+class="math inline">\(\Rightarrow\)</span></li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>Number.parseInt(val) $\Rightarrow$ 参数 val 转 int 类型</li>
+<li>Number.parseInt(val) <span
+class="math inline">\(\Rightarrow\)</span> 参数 val 转 int 类型</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">numberParseInt</span> = (<span class="hljs-params">val</span>) =&gt; &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberParseInt=====&gt;&gt;&gt;&#x27;</span>, <span class="hljs-title class_">Number</span>.<span class="hljs-built_in">parseInt</span>(val));<br>&#125;;<br><br><span class="hljs-comment">// 20</span><br><span class="hljs-title function_">numberParseInt</span>(<span class="hljs-number">20</span>);<br><span class="hljs-comment">// 20</span><br><span class="hljs-title function_">numberParseInt</span>(<span class="hljs-number">20.05</span>);<br><span class="hljs-comment">// 20</span><br><span class="hljs-title function_">numberParseInt</span>(<span class="hljs-number">20.56</span>);<br><span class="hljs-comment">// 102</span><br><span class="hljs-title function_">numberParseInt</span>(<span class="hljs-string">&#x27;102.56&#x27;</span>);<br><span class="hljs-comment">// -30</span><br><span class="hljs-title function_">numberParseInt</span>(<span class="hljs-string">&#x27;-30.66&#x27;</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>Number.# parseFloat(val) $\Rightarrow$ 参数 val 转浮点类型</li>
+<li>Number.# parseFloat(val) <span
+class="math inline">\(\Rightarrow\)</span> 参数 val 转浮点类型</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">numberParseFloat</span> = (<span class="hljs-params">val</span>) =&gt; &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberParseFloat=====&gt;&gt;&gt;&#x27;</span>, <span class="hljs-title class_">Number</span>.<span class="hljs-built_in">parseFloat</span>(val));<br>&#125;;<br><br><span class="hljs-comment">// 20</span><br><span class="hljs-title function_">numberParseFloat</span>(<span class="hljs-number">20</span>);<br><span class="hljs-comment">// 20.05</span><br><span class="hljs-title function_">numberParseFloat</span>(<span class="hljs-number">20.05</span>);<br><span class="hljs-comment">// 20.56785215950548</span><br><span class="hljs-title function_">numberParseFloat</span>(<span class="hljs-number">20.567852159505482586259</span>);<br><span class="hljs-comment">// 102.56</span><br><span class="hljs-title function_">numberParseFloat</span>(<span class="hljs-string">&#x27;102.56&#x27;</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>number.toFixed(val) $\Rightarrow$ 数字转换为字符串后去四舍五入至指定的小数位数</li>
+<li>number.toFixed(val) <span class="math inline">\(\Rightarrow\)</span>
+数字转换为字符串后去四舍五入至指定的小数位数</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberToFixed</span>(<span class="hljs-params">num, val</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberToFixed=====&gt;&gt;&gt;&#x27;</span>, num.<span class="hljs-title function_">toFixed</span>(val));<br>&#125;<br><br><span class="hljs-comment">// 12.12</span><br><span class="hljs-title function_">numberToFixed</span>(<span class="hljs-number">12.1234567890123</span>, <span class="hljs-number">2</span>);<br><span class="hljs-comment">// 12.13</span><br><span class="hljs-title function_">numberToFixed</span>(<span class="hljs-number">12.12654231452</span>, <span class="hljs-number">2</span>);<br><span class="hljs-comment">// 12.127</span><br><span class="hljs-title function_">numberToFixed</span>(<span class="hljs-number">12.12654231452</span>, <span class="hljs-number">3</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>number.toPrecision(val) $\Rightarrow$ 返回指定长度的数字</li>
+<li>number.toPrecision(val) <span
+class="math inline">\(\Rightarrow\)</span> 返回指定长度的数字</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberToPrecision</span>(<span class="hljs-params">num, val</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberToPrecision=====&gt;&gt;&gt;&#x27;</span>, num.<span class="hljs-title function_">toPrecision</span>(val));<br>&#125;<br><br><span class="hljs-comment">// 12</span><br><span class="hljs-title function_">numberToPrecision</span>(<span class="hljs-number">12.1234567890123</span>, <span class="hljs-number">2</span>);<br><span class="hljs-comment">// 12.127</span><br><span class="hljs-title function_">numberToPrecision</span>(<span class="hljs-number">12.12654231452</span>, <span class="hljs-number">5</span>);<br><span class="hljs-comment">// 12.1</span><br><span class="hljs-title function_">numberToPrecision</span>(<span class="hljs-number">12.12654231452</span>, <span class="hljs-number">3</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>number.toString(val) $\Rightarrow$ 数字转字符串</li>
+<li>number.toString(val) <span
+class="math inline">\(\Rightarrow\)</span> 数字转字符串</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberToString</span>(<span class="hljs-params">num</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberToString=====&gt;&gt;&gt;&#x27;</span>, num.<span class="hljs-title function_">toString</span>());<br>&#125;<br><br><span class="hljs-comment">// &quot;12.1234567890123&quot;</span><br><span class="hljs-title function_">numberToString</span>(<span class="hljs-number">12.1234567890123</span>);<br><span class="hljs-comment">// &quot;12.1234567890123&quot;</span><br><span class="hljs-title function_">numberToString</span>(<span class="hljs-string">&#x27;12.1234567890123&#x27;</span>);<br></code></pre></td></tr></table></figure>
-
 <ul>
-<li>number.valueOf() $\Rightarrow$ 数字转字符串</li>
+<li>number.valueOf() <span class="math inline">\(\Rightarrow\)</span>
+数字转字符串</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberValueOf</span>(<span class="hljs-params">num</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberValueOf=====&gt;&gt;&gt;&#x27;</span>, num.<span class="hljs-title function_">valueOf</span>());<br>&#125;<br><br><span class="hljs-comment">// 12.1234567890123</span><br><span class="hljs-title function_">numberValueOf</span>(<span class="hljs-number">12.1234567890123</span>);<br><span class="hljs-comment">// 12.1234567890123</span><br><span class="hljs-title function_">numberValueOf</span>(<span class="hljs-string">&#x27;12.1234567890123&#x27;</span>);<br></code></pre></td></tr></table></figure>
 
@@ -449,9 +450,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" title="js基础知识">
+                      <a href="/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Object/" title="Object">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">js基础知识</span>
+                        <span class="hidden-mobile">Object</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -459,8 +460,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Object/" title="Object">
-                        <span class="hidden-mobile">Object</span>
+                      <a href="/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/String/" title="String">
+                        <span class="hidden-mobile">String</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

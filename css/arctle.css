@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: 1px solid var(--line-color);
+}
+
+h1 {
+  color: #d20f39 !important;
+}
+
+h2 {
+  color: #fe640c !important;
+}
+
+h3 {
+  color: #40a02b !important;
+}
+
+h4 {
+  color: #169299 !important;
+}
+
+h5 {
+  color: #7287fd !important;
+}
+
+h6 {
+  color: #8839ef !important;
+}
+
+.MathJax {
+  color: #e1b0ac;
+  text-align: left !important;
+}
+
+.latex-box {
+  display: flex;
+  P {
+    flex: 1;
+  }
+}
