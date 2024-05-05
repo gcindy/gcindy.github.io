@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -13,19 +13,19 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="苏小妍">
   <meta name="keywords" content="">
   
     <meta name="description" content="git 代码撤销回滚只看这一篇就足够了！   revert：是指放弃指定提交的修改，但是会⽣成⼀次新的提交，需要填写提交注释，以前的历史记录都在  1git log 1git reset –hard 要回滚的commitID 12# 回退上一次提交git reset --hard HEAD^  reset：是指将 HEAD 指针指到指定提交，历史记录中不会出现放弃的提交记录。  1git log">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git之回滚代码">
-<meta property="og:url" content="http://example.com/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%B9%8B%E5%9B%9E%E6%BB%9A%E4%BB%A3%E7%A0%81/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="https://blog.gongyibai.cn/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%B9%8B%E5%9B%9E%E6%BB%9A%E4%BB%A3%E7%A0%81/index.html">
+<meta property="og:site_name" content="代码笔墨">
 <meta property="og:description" content="git 代码撤销回滚只看这一篇就足够了！   revert：是指放弃指定提交的修改，但是会⽣成⼀次新的提交，需要填写提交注释，以前的历史记录都在  1git log 1git reset –hard 要回滚的commitID 12# 回退上一次提交git reset --hard HEAD^  reset：是指将 HEAD 指针指到指定提交，历史记录中不会出现放弃的提交记录。  1git log">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-19T10:09:00.000Z">
 <meta property="article:modified_time" content="2024-04-22T02:29:01.422Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="苏小妍">
 <meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -33,7 +33,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Git之回滚代码 - Hexo</title>
+  <title>Git之回滚代码 - 代码笔墨</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -75,7 +75,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":6},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"blog.gongyibai.cn","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":6},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -230,7 +230,7 @@
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
         <time datetime="2024-02-19 18:09" pubdate>
-          February 19, 2024 pm
+          2024年2月19日 晚上
         </time>
       </span>
     
@@ -241,7 +241,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          103 words
+          103 字
         
       </span>
     
@@ -252,7 +252,7 @@
         
         
         
-          1 mins
+          1 分钟
         
       </span>
     
@@ -262,7 +262,7 @@
       
         <span id="busuanzi_container_page_pv" style="display: none">
           <i class="iconfont icon-eye" aria-hidden="true"></i>
-          <span id="busuanzi_value_page_pv"></span> views
+          <span id="busuanzi_value_page_pv"></span> 次
         </span>
         
       
@@ -302,7 +302,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    Last updated on April 22, 2024 am
+                    本文最后更新于 2024年4月22日 上午
                   
                 
               </p>
@@ -373,36 +373,36 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
   <div class="license-box my-3">
     <div class="license-title">
       <div>Git之回滚代码</div>
-      <div>http://example.com/2024/02/19/web前端系列/Git/Git之回滚代码/</div>
+      <div>https://blog.gongyibai.cn/2024/02/19/web前端系列/Git/Git之回滚代码/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
-          <div>John Doe</div>
+          <div>作者</div>
+          <div>苏小妍</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>February 19, 2024</div>
+          <div>发布于</div>
+          <div>2024年2月19日</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Updated on</div>
-          <div>April 22, 2024</div>
+          <div>更新于</div>
+          <div>2024年4月22日</div>
         </div>
       
       
         <div class="license-meta-item">
-          <div>Licensed under</div>
+          <div>许可协议</div>
           <div>
             
               
               
                 <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
                   </span>
                 </a>
@@ -425,7 +425,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
                       <a href="/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/String/" title="String">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">String</span>
-                        <span class="visible-mobile">Previous</span>
+                        <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
@@ -434,7 +434,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
                     
                       <a href="/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/" title="Git使用多个ssh">
                         <span class="hidden-mobile">Git使用多个ssh</span>
-                        <span class="visible-mobile">Next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -464,7 +464,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -520,7 +520,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -528,7 +528,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -556,16 +556,16 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
   
     
       <span id="busuanzi_container_site_pv" style="display: none">
-        Views: 
+        总访问量 
         <span id="busuanzi_value_site_pv"></span>
-        
+         次
       </span>
     
     
       <span id="busuanzi_container_site_uv" style="display: none">
-        Visitors: 
+        总访客数 
         <span id="busuanzi_value_site_uv"></span>
-        
+         人
       </span>
     
     
@@ -733,7 +733,7 @@ target="_blank" rel="noopener" href="https://blog.csdn.net/wohaqiyi/article/deta
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
