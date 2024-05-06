@@ -29,60 +29,6 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
-    <title>Figma</title>
-    <url>/2024/04/22/ui%E7%B3%BB%E5%88%97/Figma/</url>
-    <content><![CDATA[<h1 id="本地变量">本地变量</h1>
-<ul>
-<li>number : 尺寸、圆角、自动布局属性</li>
-<li>color : 颜色填充</li>
-<li>string : 文本图层、变体属性</li>
-<li>boolean : 开关切换</li>
-</ul>
-<h1 id="快捷键">快捷键</h1>
-<blockquote>
-<p><a href="https://zhuanlan.zhihu.com/p/517253772">figma 快捷键</a></p>
-</blockquote>
-<ul>
-<li><p>搜索文件：<kbd>command + /</kbd></p>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%90%9C%E7%B4%A2%E6%96%87%E4%BB%B6.gif" /></p></li>
-<li><p>切换icon：<kbd>command + option</kbd></p></li>
-</ul>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%88%87%E6%8D%A2icon.gif" /></p>
-<ul>
-<li>自动布局：<kbd>shift + A</kbd></li>
-</ul>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E8%87%AA%E5%8A%A8%E5%B8%83%E5%B1%80.gif" /></p>
-<ul>
-<li>figma重命名：<kbd>command + R</kbd></li>
-</ul>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.gif" /></p>
-<ul>
-<li>锁定 / 解锁图层：<kbd>command + shift + L</kbd></li>
-</ul>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E9%94%81%E5%AE%9A%E5%9B%BE%E5%B1%82.gif" /></p>
-<ul>
-<li>快速折叠侧边栏：<kbd>option + L</kbd></li>
-</ul>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E5%BF%AB%E9%80%9F%E6%8A%98%E5%8F%A0.gif" /></p>
-<ul>
-<li>设计稿拉长距离，内容不变
-<ul>
-<li>只需要在容器上按住 <strong><code>command</code></strong>
-键进行拉伸即可</li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>UI知识</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Adobe After Effects常用插件</title>
     <url>/2024/04/01/ui%E7%B3%BB%E5%88%97/AE%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</url>
     <content><![CDATA[<ol type="1">
@@ -611,6 +557,60 @@ src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/PS/%E5%9B%
       </categories>
   </entry>
   <entry>
+    <title>Figma</title>
+    <url>/2024/04/22/ui%E7%B3%BB%E5%88%97/Figma/</url>
+    <content><![CDATA[<h1 id="本地变量">本地变量</h1>
+<ul>
+<li>number : 尺寸、圆角、自动布局属性</li>
+<li>color : 颜色填充</li>
+<li>string : 文本图层、变体属性</li>
+<li>boolean : 开关切换</li>
+</ul>
+<h1 id="快捷键">快捷键</h1>
+<blockquote>
+<p><a href="https://zhuanlan.zhihu.com/p/517253772">figma 快捷键</a></p>
+</blockquote>
+<ul>
+<li><p>搜索文件：<kbd>command + /</kbd></p>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%90%9C%E7%B4%A2%E6%96%87%E4%BB%B6.gif" /></p></li>
+<li><p>切换icon：<kbd>command + option</kbd></p></li>
+</ul>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%88%87%E6%8D%A2icon.gif" /></p>
+<ul>
+<li>自动布局：<kbd>shift + A</kbd></li>
+</ul>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E8%87%AA%E5%8A%A8%E5%B8%83%E5%B1%80.gif" /></p>
+<ul>
+<li>figma重命名：<kbd>command + R</kbd></li>
+</ul>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.gif" /></p>
+<ul>
+<li>锁定 / 解锁图层：<kbd>command + shift + L</kbd></li>
+</ul>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E9%94%81%E5%AE%9A%E5%9B%BE%E5%B1%82.gif" /></p>
+<ul>
+<li>快速折叠侧边栏：<kbd>option + L</kbd></li>
+</ul>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E5%BF%AB%E9%80%9F%E6%8A%98%E5%8F%A0.gif" /></p>
+<ul>
+<li>设计稿拉长距离，内容不变
+<ul>
+<li>只需要在容器上按住 <strong><code>command</code></strong>
+键进行拉伸即可</li>
+</ul></li>
+</ul>
+]]></content>
+      <categories>
+        <category>UI知识</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Ui相关知识</title>
     <url>/2024/03/29/ui%E7%B3%BB%E5%88%97/ui%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/</url>
     <content><![CDATA[<h1 id="文章">文章</h1>
@@ -864,6 +864,18 @@ alt="使用数据库" />
       </tags>
   </entry>
   <entry>
+    <title>Ipad端</title>
+    <url>/2024/04/22/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/ipad%E7%AB%AF/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>UI知识</category>
+      </categories>
+      <tags>
+        <tag>设计规范</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>设计规范 - Ios端</title>
     <url>/2024/03/29/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/ios%E7%AB%AF/</url>
     <content><![CDATA[<blockquote>
@@ -938,18 +950,6 @@ alt="使用数据库" />
       </tags>
   </entry>
   <entry>
-    <title>Ipad端</title>
-    <url>/2024/04/22/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/ipad%E7%AB%AF/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>UI知识</category>
-      </categories>
-      <tags>
-        <tag>设计规范</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Web端</title>
     <url>/2024/04/22/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/web%E7%AB%AF/</url>
     <content><![CDATA[
@@ -1015,41 +1015,6 @@ href="https://blog.csdn.net/wohaqiyi/article/details/129477866">git
 </ul>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git log<br></code></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git revert 要回滚的commitID<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git使用多个ssh</title>
-    <url>/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://segmentfault.com/a/1190000017945878">Mac OS
-下配置多个 SSH Key</a></p>
-</blockquote>
-<ul>
-<li>git 基础教程 <span class="math inline">\(\Rightarrow\)</span>
-[[Git的使用]]</li>
-</ul>
-<h1 id="取消全局绑定的账号">1、取消全局绑定的账号</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git config –global –unset user.name<br></code></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git config –global –unset user.emai<br></code></pre></td></tr></table></figure>
-<h1 id="生成多个-ssh-key">2、生成多个 ssh key</h1>
-<h1 id="在-github码云等平台绑定创建的-ssh-key">3、在
-github、码云等平台绑定创建的 ssh key</h1>
-<h1 id="在.sshconfig-文件中进行配置">4、 在.ssh/config
-文件中进行配置</h1>
-<p>[注释]：若没有 config 文件，在.ssh 文件中创建</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">touch config<br></code></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh"><br>// 配置<br><br>// Host随便写，最后测试连接的名字<br><br>// HostName写对应的地址（如果是公司的域名:110.123.123那么这⾥就是110.123.123）<br><br>// IdentityFile 你⽣成的ssh key名字<br><br># github 3142289320@qq.com<br><br>Host github.com<br><br>HostName github.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa<br><br># gitee 账号邮箱<br><br>Host gitee.com<br><br>HostName gitee.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa_2<br><br></code></pre></td></tr></table></figure>
-<h1 id="添加-ssh-key-到系统">5、 添加 ssh key 到系统</h1>
-<figure class="highlight dockerfile"><table><tr><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa</span><br></code></pre></td></tr></table></figure>
-<figure class="highlight dockerfile"><table><tr><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa_2</span><br></code></pre></td></tr></table></figure>
-<h1 id="测试">6、 测试</h1>
-<figure class="highlight nginx"><table><tr><td class="code"><pre><code class="hljs nginx"><span class="hljs-comment"># 测试 Github</span><br><span class="hljs-attribute">ssh</span> -T git<span class="hljs-variable">@github</span>.com<br><br><br><br><br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -1193,6 +1158,41 @@ href="https://hooj0.github.io/git-emoji-guide/">git-emoji-guide</a></p>
       </tags>
   </entry>
   <entry>
+    <title>Git使用多个ssh</title>
+    <url>/2024/02/19/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://segmentfault.com/a/1190000017945878">Mac OS
+下配置多个 SSH Key</a></p>
+</blockquote>
+<ul>
+<li>git 基础教程 <span class="math inline">\(\Rightarrow\)</span>
+[[Git的使用]]</li>
+</ul>
+<h1 id="取消全局绑定的账号">1、取消全局绑定的账号</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git config –global –unset user.name<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">git config –global –unset user.emai<br></code></pre></td></tr></table></figure>
+<h1 id="生成多个-ssh-key">2、生成多个 ssh key</h1>
+<h1 id="在-github码云等平台绑定创建的-ssh-key">3、在
+github、码云等平台绑定创建的 ssh key</h1>
+<h1 id="在.sshconfig-文件中进行配置">4、 在.ssh/config
+文件中进行配置</h1>
+<p>[注释]：若没有 config 文件，在.ssh 文件中创建</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh">touch config<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs ssh"><br>// 配置<br><br>// Host随便写，最后测试连接的名字<br><br>// HostName写对应的地址（如果是公司的域名:110.123.123那么这⾥就是110.123.123）<br><br>// IdentityFile 你⽣成的ssh key名字<br><br># github 3142289320@qq.com<br><br>Host github.com<br><br>HostName github.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa<br><br># gitee 账号邮箱<br><br>Host gitee.com<br><br>HostName gitee.com<br><br>PreferredAuthentications publickey<br><br>IdentityFile ~/.ssh/id_rsa_2<br><br></code></pre></td></tr></table></figure>
+<h1 id="添加-ssh-key-到系统">5、 添加 ssh key 到系统</h1>
+<figure class="highlight dockerfile"><table><tr><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="code"><pre><code class="hljs dockerfile">ssh-<span class="hljs-keyword">add</span><span class="language-bash"> ~./ssh/id_rsa_2</span><br></code></pre></td></tr></table></figure>
+<h1 id="测试">6、 测试</h1>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><code class="hljs nginx"><span class="hljs-comment"># 测试 Github</span><br><span class="hljs-attribute">ssh</span> -T git<span class="hljs-variable">@github</span>.com<br><br><br><br><br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>React之scss的使用</title>
     <url>/2024/03/01/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E4%B9%8Bscss%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<ul>
@@ -1209,6 +1209,22 @@ href="https://hooj0.github.io/git-emoji-guide/">git-emoji-guide</a></p>
 <figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; <span class="hljs-title class_">PageWraperContext</span> &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;@/context&#x27;</span>;<br><span class="hljs-keyword">import</span> <span class="hljs-title class_">React</span>, &#123; useContext, useMemo &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><span class="hljs-keyword">import</span> <span class="hljs-string">&#x27;./index.scss&#x27;</span>;<br><span class="hljs-comment">// @use &#x27;styles/_colors.scss&#x27;</span><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">GrandSon</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> &#123; right, setRight &#125; = <span class="hljs-title function_">useContext</span>(<span class="hljs-title class_">PageWraperContext</span>);<br><br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">clickRight</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>    <span class="hljs-title function_">setRight</span>(right + <span class="hljs-number">1</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;child1==&gt;right==&gt;&#x27;</span>, right);<br>  &#125;;<br><br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderChild2</span> = (<span class="hljs-params"></span>) =&gt;<br>    <span class="hljs-title function_">useMemo</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;child1==&gt;right==&gt;&#x27;</span>, right);<br>      <span class="hljs-keyword">return</span> (<br>        <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&#x27;container&#x27;</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&#x27;text&#x27;</span>&gt;</span>我是孙子组件:&#123;right&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;clickRight&#125;</span>&gt;</span>点击Right次数 <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br>      );<br>    &#125;, [right]);<br><br>  <span class="hljs-keyword">return</span> <span class="hljs-title class_">RenderChild2</span>();<br>&#125;;<br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">GrandSon</span>;<br></code></pre></td></tr></table></figure>
 <p><img
 src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403012052547.png" /></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>React之渲染HTML</title>
+    <url>/2024/03/01/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E4%B9%8B%E6%B8%B2%E6%9F%93HTML/</url>
+    <content><![CDATA[<ul>
+<li>获取 HTML 节点并存储</li>
+<li>渲染</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-comment">// 假设这是获取到的HTML节点</span><br>  <span class="hljs-keyword">const</span> info =<br>    <span class="hljs-string">&#x27;&lt;div&gt;龚铱⽩真可爱&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:pink&quot;&gt;龚铱⽩&lt;/span&gt;真可爱&lt;/div&gt;&lt;p&gt;段落1&lt;/p&gt;&lt;p&gt;段落2&lt;/p&gt;&#x27;</span>;<br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>我是Index页面<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      &#123;/* 渲染HTML节点 */&#125;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span></span></span><br><span class="hljs-tag"><span class="language-xml">        <span class="hljs-attr">className</span>=<span class="hljs-string">&#x27;detail&#x27;</span></span></span><br><span class="hljs-tag"><span class="language-xml">        <span class="hljs-attr">dangerouslySetInnerHTML</span>=<span class="hljs-string">&#123;&#123;</span> <span class="hljs-attr">__html:</span> <span class="hljs-attr">info</span> || &#x27;&#x27; &#125;&#125;</span></span><br><span class="hljs-tag"><span class="language-xml">      /&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -1335,22 +1351,6 @@ href="https://tsejx.github.io/react-guidebook/api-reference/react/suspense/">Rea
       </tags>
   </entry>
   <entry>
-    <title>React之渲染HTML</title>
-    <url>/2024/03/01/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E4%B9%8B%E6%B8%B2%E6%9F%93HTML/</url>
-    <content><![CDATA[<ul>
-<li>获取 HTML 节点并存储</li>
-<li>渲染</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-comment">// 假设这是获取到的HTML节点</span><br>  <span class="hljs-keyword">const</span> info =<br>    <span class="hljs-string">&#x27;&lt;div&gt;龚铱⽩真可爱&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:pink&quot;&gt;龚铱⽩&lt;/span&gt;真可爱&lt;/div&gt;&lt;p&gt;段落1&lt;/p&gt;&lt;p&gt;段落2&lt;/p&gt;&#x27;</span>;<br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>我是Index页面<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      &#123;/* 渲染HTML节点 */&#125;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span></span></span><br><span class="hljs-tag"><span class="language-xml">        <span class="hljs-attr">className</span>=<span class="hljs-string">&#x27;detail&#x27;</span></span></span><br><span class="hljs-tag"><span class="language-xml">        <span class="hljs-attr">dangerouslySetInnerHTML</span>=<span class="hljs-string">&#123;&#123;</span> <span class="hljs-attr">__html:</span> <span class="hljs-attr">info</span> || &#x27;&#x27; &#125;&#125;</span></span><br><span class="hljs-tag"><span class="language-xml">      /&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>React</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>React的安装&amp;创建项目</title>
     <url>/2024/02/28/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E5%AE%89%E8%A3%85%20&amp;%20%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<blockquote>
@@ -1378,6 +1378,74 @@ src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202
       </categories>
       <tags>
         <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>React的生命周期&amp;创建项目</title>
+    <url>/2024/02/29/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://juejin.cn/post/6844903901620092941"># Hooks 与 React
+生命周期的关系</a><br />
+<a href="https://zhuanlan.zhihu.com/p/481678531"># react Hooks 与 React
+生命周期的关系</a></p>
+</blockquote>
+<ul>
+<li>useState：定义并初始化数据</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>    <span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>  &#125;;<br><br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<ul>
+<li>useEffect：初始化页面 &amp; 监听数据</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>  &#125;, []);<br><br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403011824433.png" /></p>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>  &#125;, []);<br><br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;count&#x27;</span>, count);<br>  &#125;, [count]);<br><br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>    <span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>  &#125;;<br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403012025136.gif" /></p>
+<ul>
+<li>useRef：获取 dom 节点</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useRef, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>	<span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br><br>	<span class="hljs-comment">// 获取真实dom节点</span><br>	<span class="hljs-keyword">const</span> domRef = <span class="hljs-title function_">useRef</span>(<span class="hljs-literal">null</span>);<br><br>	<span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>, domRef);<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>	&#125;, []);<br><br>	<span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;count&#x27;</span>, count);<br>	&#125;, [count]);<br><br>	<span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>		<span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>	&#125;;<br>	<span class="hljs-keyword">return</span> (<br>		<span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">			<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&#123;&#123;</span> <span class="hljs-attr">marginBottom:</span> <span class="hljs-attr">20</span>, <span class="hljs-attr">color:</span> &#x27;<span class="hljs-attr">pink</span>&#x27; &#125;&#125; <span class="hljs-attr">ref</span>=<span class="hljs-string">&#123;domRef&#125;</span>&gt;</span></span><br><span class="language-xml">				&#123;count&#125;</span><br><span class="language-xml">			<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">			<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">		<span class="hljs-tag">&lt;/&gt;</span></span><br>	);<br>&#125;;<br><br><span class="hljs-keyword">export</span> defaul~~t <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<p><img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403011824430.png" /></p>
+<ul>
+<li>useMemo：对数据进行缓存 &gt; [[React之组件通信#兄弟组件]]</li>
+<li>useCallback：对方法进行缓存</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
+<ul>
+<li>usereducer：</li>
+</ul>
+<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Js基础知识</title>
+    <url>/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h1 id="命名规则">1、命名规则</h1>
+<h1 id="数据类型">2、数据类型</h1>
+<blockquote>
+<p>[!note] 在 const
+中,基础数据类型是不可更改的;⽽引⽤数据类型是可以的</p>
+</blockquote>
+<ul>
+<li>基础数据类型：[[String]]、[[Number]]、Boolean、Null、Undefined、Symbols</li>
+<li>引用数据类型：[[Array]]、[[Object]]、function</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
       </tags>
   </entry>
   <entry>
@@ -1582,27 +1650,6 @@ class="math inline">\(\Rightarrow\)</span> 数字转字符串</li>
 数字转字符串</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">numberValueOf</span>(<span class="hljs-params">num</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;numberValueOf=====&gt;&gt;&gt;&#x27;</span>, num.<span class="hljs-title function_">valueOf</span>());<br>&#125;<br><br><span class="hljs-comment">// 12.1234567890123</span><br><span class="hljs-title function_">numberValueOf</span>(<span class="hljs-number">12.1234567890123</span>);<br><span class="hljs-comment">// 12.1234567890123</span><br><span class="hljs-title function_">numberValueOf</span>(<span class="hljs-string">&#x27;12.1234567890123&#x27;</span>);<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Js基础知识</title>
-    <url>/2024/02/22/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<h1 id="命名规则">1、命名规则</h1>
-<h1 id="数据类型">2、数据类型</h1>
-<blockquote>
-<p>[!note] 在 const
-中,基础数据类型是不可更改的;⽽引⽤数据类型是可以的</p>
-</blockquote>
-<ul>
-<li>基础数据类型：[[String]]、[[Number]]、Boolean、Null、Undefined、Symbols</li>
-<li>引用数据类型：[[Array]]、[[Object]]、function</li>
-</ul>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -3555,210 +3602,6 @@ $50\% * (2+3+2) / 3 +30\% * (1+1+2) + 20\% * (3+2+2) / 3= 2.03$
       </tags>
   </entry>
   <entry>
-    <title>单代号网络图</title>
-    <url>/2024/04/01/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
-    <content><![CDATA[<h1 id="单代号网络图">单代号网络图</h1>
-<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>单代号网络图又称前导图法(PDM)
-/
-紧前关系绘图法</strong>。是以一个正方形或者长方形表达活动的一种网络图绘制方法</mark>
-<img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png" /></p>
-<ul>
-<li>F-S(FInish-Start)：一个活动结束另一个活动才能开始 <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png" />
-<ul>
-<li><font color='#2F8EF4'>eg: 吃完饭才能洗碗 /
-写完代码才能部署项目</font></li>
-</ul></li>
-<li>F-F：一个活动结束另一个活动才能结束 <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png" />
-<ul>
-<li><font color='#2F8EF4'>eg: 婚礼仪式结束，婚礼才算结束</font></li>
-</ul></li>
-<li>S-S：一个活动开始另一个活动才能开始 <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" />
-<ul>
-<li><font color='#2F8EF4'>eg:
-运动会比赛：枪响声开始，裁判才开始计时</font></li>
-</ul></li>
-<li>S-F：一个活动开始另一个活动才能结束 <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" />
-<ul>
-<li><font color='#2F8EF4'>eg: 保安 B 交班了，保安 A 才能下班</font></li>
-</ul></li>
-<li>紧前活动 A、B、C 都完成才能进行活动 D <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png" /></li>
-<li>紧后活动 A、B、C 都有一个共同的紧前活动 D <img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png" /></li>
-</ul>
-<h3 id="案例">案例</h3>
-<div>
-<ol type="1">
-<li>在工程网络计划中，工作M的最早开始时间是第16天，其持续时间是5天。该工作有三项紧后工作，他们的最早开始时间分别为第25天、第27天和第30天，最迟开始时间分别为第28天、第29天和第30天。则工作M的总时差为<font color="#DF2A3F">(C)</font>天&gt;?
-<div>
-A）5
-</div>
-<div>
-B）6
-</div>
-<div>
-C）7
-</div>
-<div>
-D）9
-</div>
-<div>
-解析：
-</div>
-<img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png" /></li>
-</ol>
-<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由六标时网络图绘制可知最早开始时间是第16天，持续时间是5天，最早的完成时间为21天，最迟开工为28天。<br>  根据逆推法可得知：<br>  最晚的开始时间为28天<br>  28-21 = 7<br>  所以，最晚开始持续时间为7天<br>  最晚开始时间 = 16+7 = 23<br>  再带入总时差计算公式：总时差 = LS-ES = LF-EF<br>  总时差 = 23-16 = 28-21 = 7<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
-</div>
-<div>
-<ol start="2" type="1">
-<li>某工程建设项目中各工序历时如下图所示，则本项目最快完成时间为<font  color="#DF2A3F">(13)周</font>。同时，通过<font  color="#DF2A3F">(1、5)</font>可以缩短项目工期。
-<div>
-① 压缩B工序时间
-</div>
-<div>
-② 压缩H工序时间
-</div>
-<div>
-③ 同时开展A工序和H工序
-</div>
-<div>
-④ 压缩F工序时间
-</div>
-<div>
-⑤ 压缩G工序时间
-</div>
-<img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png" />
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  <span class="hljs-params">#</span> 算关键路径，即算最快完成时间<br>  <span class="hljs-params">##</span> 由上图单代号网络图可先算出路径和总用时时间<br>  ABHI  12<br>  ABEGI 13<br>  ABDFJ 12<br>  ACFJ  11<br>  <span class="hljs-params">##</span> 由此可得最快完成时间为13周 <br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure></li>
-</ol>
-</div>
-<div>
-<ol start="3" type="1">
-<li>下图某个工程单代号网络图中，活动B的总浮动时间为<font color="#DF2A3F">(D)</font>天。
-<div>
-A）1
-</div>
-<div>
-B）2
-</div>
-<div>
-C）3
-</div>
-<div>
-D）4
-</div>
-<img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png" /></li>
-</ol>
-</div>
-<div>
-<ol start="4" type="1">
-<li>某工程由8个活动组成，其各活动情况如下表所示，该工厂关键路径为<font color="#DF2A3F">(B)</font>。
-<div>
-A）ABCEGI
-</div>
-<div>
-B）ABCFHI
-</div>
-<div>
-C）ABDHI
-</div>
-<div>
-D）ABDI
-</div>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;">活动</th>
-<th style="text-align: center;">紧前活动</th>
-<th style="text-align: center;">所需天数</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">A</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">A</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">D</td>
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">E</td>
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">F</td>
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">G</td>
-<td style="text-align: center;">E</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">H</td>
-<td style="text-align: center;">FG</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">I</td>
-<td style="text-align: center;">HD</td>
-<td style="text-align: center;">2</td>
-</tr>
-</tbody>
-</table></li>
-</ol>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png" /></p>
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  ABCEGHI: 23<br>  ABDI: 14<br>  ABCFHI: 23<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
-</div>
-<div>
-5.下面某项目规划的进度网络图（单位：周），在实际实施过程中，活动B-E比计划延迟2周，活动J-K比计划提前了3周，则该项目的关键路径是<font color="#DF2A3F">(A-B-E-H-K)</font>。，总工期是<font color="#DF2A3F">(15)</font>周。
-<img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png" /><br />
-
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由题目可知，B-E的工期实际是6周，而J-K实际工期是2周。<br>  ABEHK: 3+6+2+4 = 15<br>  ABFK: 3+6+3 = 12<br>  ACFK: 4+2+3 = 9<br>  ADFK: 2+3+3 = 8<br>  ADGIJK: 4+3+2+2 = 11<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
-</div>
-]]></content>
-      <categories>
-        <category>软考</category>
-      </categories>
-      <tags>
-        <tag>计算题</tag>
-        <tag>进度类型</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>双代号时标网络图</title>
     <url>/2024/04/12/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8F%8C%E4%BB%A3%E5%8F%B7%E6%97%B6%E6%A0%87%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
     <content><![CDATA[<h1 id="双代号时标网络图">双代号时标网络图</h1>
@@ -4023,50 +3866,283 @@ src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5
       </tags>
   </entry>
   <entry>
-    <title>React的生命周期&amp;创建项目</title>
-    <url>/2024/02/29/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://juejin.cn/post/6844903901620092941"># Hooks 与 React
-生命周期的关系</a><br />
-<a href="https://zhuanlan.zhihu.com/p/481678531"># react Hooks 与 React
-生命周期的关系</a></p>
-</blockquote>
+    <title>单代号网络图</title>
+    <url>/2024/04/01/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
+    <content><![CDATA[<h1 id="单代号网络图">单代号网络图</h1>
+<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>单代号网络图又称前导图法(PDM)
+/
+紧前关系绘图法</strong>。是以一个正方形或者长方形表达活动的一种网络图绘制方法</mark>
+<img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png" /></p>
 <ul>
-<li>useState：定义并初始化数据</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>    <span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>  &#125;;<br><br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<li>F-S(FInish-Start)：一个活动结束另一个活动才能开始 <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png" />
 <ul>
-<li>useEffect：初始化页面 &amp; 监听数据</li>
+<li><font color='#2F8EF4'>eg: 吃完饭才能洗碗 /
+写完代码才能部署项目</font></li>
+</ul></li>
+<li>F-F：一个活动结束另一个活动才能结束 <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png" />
+<ul>
+<li><font color='#2F8EF4'>eg: 婚礼仪式结束，婚礼才算结束</font></li>
+</ul></li>
+<li>S-S：一个活动开始另一个活动才能开始 <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" />
+<ul>
+<li><font color='#2F8EF4'>eg:
+运动会比赛：枪响声开始，裁判才开始计时</font></li>
+</ul></li>
+<li>S-F：一个活动开始另一个活动才能结束 <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" />
+<ul>
+<li><font color='#2F8EF4'>eg: 保安 B 交班了，保安 A 才能下班</font></li>
+</ul></li>
+<li>紧前活动 A、B、C 都完成才能进行活动 D <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png" /></li>
+<li>紧后活动 A、B、C 都有一个共同的紧前活动 D <img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png" /></li>
 </ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>  &#125;, []);<br><br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
+<h3 id="案例">案例</h3>
+<div>
+<ol type="1">
+<li>在工程网络计划中，工作M的最早开始时间是第16天，其持续时间是5天。该工作有三项紧后工作，他们的最早开始时间分别为第25天、第27天和第30天，最迟开始时间分别为第28天、第29天和第30天。则工作M的总时差为<font color="#DF2A3F">(C)</font>天&gt;?
+<div>
+A）5
+</div>
+<div>
+B）6
+</div>
+<div>
+C）7
+</div>
+<div>
+D）9
+</div>
+<div>
+解析：
+</div>
+<img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png" /></li>
+</ol>
+<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由六标时网络图绘制可知最早开始时间是第16天，持续时间是5天，最早的完成时间为21天，最迟开工为28天。<br>  根据逆推法可得知：<br>  最晚的开始时间为28天<br>  28-21 = 7<br>  所以，最晚开始持续时间为7天<br>  最晚开始时间 = 16+7 = 23<br>  再带入总时差计算公式：总时差 = LS-ES = LF-EF<br>  总时差 = 23-16 = 28-21 = 7<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
+</div>
+<div>
+<ol start="2" type="1">
+<li>某工程建设项目中各工序历时如下图所示，则本项目最快完成时间为<font  color="#DF2A3F">(13)周</font>。同时，通过<font  color="#DF2A3F">(1、5)</font>可以缩短项目工期。
+<div>
+① 压缩B工序时间
+</div>
+<div>
+② 压缩H工序时间
+</div>
+<div>
+③ 同时开展A工序和H工序
+</div>
+<div>
+④ 压缩F工序时间
+</div>
+<div>
+⑤ 压缩G工序时间
+</div>
+<img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png" />
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  <span class="hljs-params">#</span> 算关键路径，即算最快完成时间<br>  <span class="hljs-params">##</span> 由上图单代号网络图可先算出路径和总用时时间<br>  ABHI  12<br>  ABEGI 13<br>  ABDFJ 12<br>  ACFJ  11<br>  <span class="hljs-params">##</span> 由此可得最快完成时间为13周 <br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure></li>
+</ol>
+</div>
+<div>
+<ol start="3" type="1">
+<li>下图某个工程单代号网络图中，活动B的总浮动时间为<font color="#DF2A3F">(D)</font>天。
+<div>
+A）1
+</div>
+<div>
+B）2
+</div>
+<div>
+C）3
+</div>
+<div>
+D）4
+</div>
+<img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png" /></li>
+</ol>
+</div>
+<div>
+<ol start="4" type="1">
+<li>某工程由8个活动组成，其各活动情况如下表所示，该工厂关键路径为<font color="#DF2A3F">(B)</font>。
+<div>
+A）ABCEGI
+</div>
+<div>
+B）ABCFHI
+</div>
+<div>
+C）ABDHI
+</div>
+<div>
+D）ABDI
+</div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">活动</th>
+<th style="text-align: center;">紧前活动</th>
+<th style="text-align: center;">所需天数</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">G</td>
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">H</td>
+<td style="text-align: center;">FG</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">HD</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
 <p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403011824433.png" /></p>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>  <span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>);<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>  &#125;, []);<br><br>  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;count&#x27;</span>, count);<br>  &#125;, [count]);<br><br>  <span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>    <span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>  &#125;;<br>  <span class="hljs-keyword">return</span> (<br>    <span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#123;count&#125;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/&gt;</span></span><br>  );<br>&#125;;<br><br><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403012025136.gif" /></p>
-<ul>
-<li>useRef：获取 dom 节点</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">import</span> &#123; useEffect, useRef, useState &#125; <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>;<br><br><span class="hljs-keyword">const</span> <span class="hljs-title function_">RenderIndex</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>	<span class="hljs-keyword">const</span> [count, set_count] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);<br><br>	<span class="hljs-comment">// 获取真实dom节点</span><br>	<span class="hljs-keyword">const</span> domRef = <span class="hljs-title function_">useRef</span>(<span class="hljs-literal">null</span>);<br><br>	<span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;初始化页面&#x27;</span>, domRef);<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;====================================&#x27;</span>);<br>	&#125;, []);<br><br>	<span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;count&#x27;</span>, count);<br>	&#125;, [count]);<br><br>	<span class="hljs-keyword">const</span> <span class="hljs-title function_">handleCount</span> = (<span class="hljs-params"></span>) =&gt; &#123;<br>		<span class="hljs-title function_">set_count</span>(count + <span class="hljs-number">1</span>);<br>	&#125;;<br>	<span class="hljs-keyword">return</span> (<br>		<span class="language-xml"><span class="hljs-tag">&lt;&gt;</span></span><br><span class="language-xml">			<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&#123;&#123;</span> <span class="hljs-attr">marginBottom:</span> <span class="hljs-attr">20</span>, <span class="hljs-attr">color:</span> &#x27;<span class="hljs-attr">pink</span>&#x27; &#125;&#125; <span class="hljs-attr">ref</span>=<span class="hljs-string">&#123;domRef&#125;</span>&gt;</span></span><br><span class="language-xml">				&#123;count&#125;</span><br><span class="language-xml">			<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">			<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">&#123;()</span> =&gt;</span> handleCount()&#125;&gt;点击<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><br><span class="language-xml">		<span class="hljs-tag">&lt;/&gt;</span></span><br>	);<br>&#125;;<br><br><span class="hljs-keyword">export</span> defaul~~t <span class="hljs-title class_">RenderIndex</span>;<br></code></pre></td></tr></table></figure>
-<p><img
-src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202403011824430.png" /></p>
-<ul>
-<li>useMemo：对数据进行缓存 &gt; [[React之组件通信#兄弟组件]]</li>
-<li>useCallback：对方法进行缓存</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
-<ul>
-<li>usereducer：</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></table></figure>
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png" /></p>
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  ABCEGHI: 23<br>  ABDI: 14<br>  ABCFHI: 23<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
+</div>
+<div>
+5.下面某项目规划的进度网络图（单位：周），在实际实施过程中，活动B-E比计划延迟2周，活动J-K比计划提前了3周，则该项目的关键路径是<font color="#DF2A3F">(A-B-E-H-K)</font>。，总工期是<font color="#DF2A3F">(15)</font>周。
+<img
+src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png" /><br />
+
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由题目可知，B-E的工期实际是6周，而J-K实际工期是2周。<br>  ABEHK: 3+6+2+4 = 15<br>  ABFK: 3+6+3 = 12<br>  ACFK: 4+2+3 = 9<br>  ADFK: 2+3+3 = 8<br>  ADGIJK: 4+3+2+2 = 11<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
+</div>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>软考</category>
       </categories>
       <tags>
-        <tag>React</tag>
+        <tag>计算题</tag>
+        <tag>进度类型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>沟通渠道（重要）</title>
+    <url>/2024/03/14/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E6%B2%9F%E9%80%9A%E6%B8%A0%E9%81%93%EF%BC%88%E9%87%8D%E8%A6%81%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="内容">内容</h1>
+<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>沟通渠道又称沟通管理</strong>。</mark><br></p>
+<p><span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="38.918ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 17201.6 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" fill="#74b602" stroke="#74b602"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">沟</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">通</text></g><g data-mml-node="mi" transform="translate(2000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">渠</text></g><g data-mml-node="mi" transform="translate(3000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">道</text></g><g data-mml-node="mo" transform="translate(4277.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(5333.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(6211.3,0)"><path data-c="3C" d="M694 -11T694 -19T688 -33T678 -40Q671 -40 524 29T234 166L90 235Q83 240 83 250Q83 261 91 266Q664 540 678 540Q681 540 687 534T694 519T687 505Q686 504 417 376L151 250L417 124Q686 -4 687 -5Q694 -11 694 -19Z"></path></g><g data-mml-node="mi" transform="translate(7267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">干</text></g><g data-mml-node="mi" transform="translate(8267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">系</text></g><g data-mml-node="mi" transform="translate(9267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">人</text></g><g data-mml-node="mo" transform="translate(10544.9,0)"><path data-c="3E" d="M84 520Q84 528 88 533T96 539L99 540Q106 540 253 471T544 334L687 265Q694 260 694 250T687 235Q685 233 395 96L107 -40H101Q83 -38 83 -20Q83 -19 83 -17Q82 -10 98 -1Q117 9 248 71Q326 108 378 132L626 250L378 368Q90 504 86 509Q84 513 84 520Z"></path></g><g data-mml-node="mo" transform="translate(11600.7,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mo" transform="translate(12378.7,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(12767.7,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(13589.9,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(14590.1,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(15090.1,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(15701.3,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mn" transform="translate(16701.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg></mjx-container></span></p>
+<h1 id="案例">案例</h1>
+<div>
+<ul>
+<li>项目团队中原来有5名成员，后来又增加了4人加入项目，与之前相比项目成员之间沟通渠道增加了多少条？
+<div>
+答：26条
+</div>
+解析： <figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>原来的沟通渠道：5 * (5-1) / 2 = 10<br>加入后的沟通渠道：9 * (9-1) / 2 = 36<br>由于问的是增加了多少条，需要将加入后的沟通渠道 - 原来的沟通渠道，得出 26<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure></li>
+</ul>
+</div>
+<div>
+<ul>
+<li>两名新成员最近加入到某项目中，项目组成员原来有6名，则沟通途径增加了多少？
+<div>
+答：13
+</div>
+解析：跟上题一样</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>项目中有沟通渠道 66 条，请问项目中有
+<font color="#DF2A3F">(C)</font>干系人？
+<div>
+（A）10
+</div>
+<div>
+（A）11
+</div>
+<div>
+（A）12
+</div>
+<div>
+（A）13
+</div></li>
+</ul>
+</div>
+]]></content>
+      <categories>
+        <category>软考</category>
+      </categories>
+      <tags>
+        <tag>计算题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资源平衡（进度管理）</title>
+    <url>/2024/03/21/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E8%B5%84%E6%BA%90%E5%B9%B3%E8%A1%A1/</url>
+    <content><![CDATA[<h1 id="资源平衡进度管理">资源平衡（进度管理）</h1>
+<h2 id="案例">案例</h2>
+<ul>
+<li>下图中，如果按时完成活动 1、2、3 的概率都是 60%，那么活动 4 在第 6
+天开始的概率是多少？
+<div>
+答：22%
+</div></li>
+</ul>
+<p>解析： <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="25.265ex" height="1.882ex" role="img" focusable="false" viewBox="0 -750 11167 832"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" fill="blue" stroke="blue"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(1222.2,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mn" transform="translate(1944.4,0)"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(3166.7,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mn" transform="translate(3888.9,0)"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(5166.7,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(6222.4,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z" transform="translate(500,0)"></path><path data-c="2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z" transform="translate(1000,0)"></path><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z" transform="translate(1278,0)"></path></g><g data-mml-node="mi" transform="translate(8000.4,0)"><path data-c="25" d="M465 605Q428 605 394 614T340 632T319 641Q332 608 332 548Q332 458 293 403T202 347Q145 347 101 402T56 548Q56 637 101 693T202 750Q241 750 272 719Q359 642 464 642Q580 642 650 732Q662 748 668 749Q670 750 673 750Q682 750 688 743T693 726Q178 -47 170 -52Q166 -56 160 -56Q147 -56 142 -45Q137 -36 142 -27Q143 -24 363 304Q469 462 525 546T581 630Q528 605 465 605ZM207 385Q235 385 263 427T292 548Q292 617 267 664T200 712Q193 712 186 709T167 698T147 668T134 615Q132 595 132 548V527Q132 436 165 403Q183 385 203 385H207ZM500 146Q500 234 544 290T647 347Q699 347 737 292T776 146T737 0T646 -56Q590 -56 545 0T500 146ZM651 -18Q679 -18 707 24T736 146Q736 215 711 262T644 309Q637 309 630 306T611 295T591 265T578 212Q577 200 577 146V124Q577 -18 647 -18H651Z"></path></g><g data-mml-node="mo" transform="translate(9111.2,0)"><path data-c="2248" d="M55 319Q55 360 72 393T114 444T163 472T205 482Q207 482 213 482T223 483Q262 483 296 468T393 413L443 381Q502 346 553 346Q609 346 649 375T694 454Q694 465 698 474T708 483Q722 483 722 452Q722 386 675 338T555 289Q514 289 468 310T388 357T308 404T224 426Q164 426 125 393T83 318Q81 289 69 289Q55 289 55 319ZM55 85Q55 126 72 159T114 210T163 238T205 248Q207 248 213 248T223 249Q262 249 296 234T393 179L443 147Q502 112 553 112Q609 112 649 141T694 220Q694 249 708 249T722 217Q722 153 675 104T555 55Q514 55 468 76T388 123T308 170T224 192Q164 192 125 159T83 84Q80 55 69 55Q55 55 55 85Z"></path></g><g data-mml-node="mn" transform="translate(10167,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z" transform="translate(500,0)"></path></g></g></g></g></g></svg></mjx-container></span></p>
+<!-- ```latex
+$60 * 60 * 60 = 21.6\% ≈ 22$
+``` -->
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E8%B5%84%E6%BA%90%E5%B9%B3%E8%A1%A1.png"></p>
+]]></content>
+      <categories>
+        <category>软考</category>
+      </categories>
+      <tags>
+        <tag>计算题</tag>
       </tags>
   </entry>
   <entry>
@@ -4197,82 +4273,6 @@ n，则财务净现值为<font color="#DF2A3F">(&gt;0，项目可行)</font></li
 <p>解析：</p>
 <figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  - 由累计净现金流现值可得知到2021年还亏100万元<br>  <span class="hljs-params">#</span> 投资回收期公式<br>   (4-1) + -100 / 200 = 3.5<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure>
 </div>
-]]></content>
-      <categories>
-        <category>软考</category>
-      </categories>
-      <tags>
-        <tag>计算题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>沟通渠道（重要）</title>
-    <url>/2024/03/14/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E6%B2%9F%E9%80%9A%E6%B8%A0%E9%81%93%EF%BC%88%E9%87%8D%E8%A6%81%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="内容">内容</h1>
-<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>沟通渠道又称沟通管理</strong>。</mark><br></p>
-<p><span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="38.918ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 17201.6 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" fill="#74b602" stroke="#74b602"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">沟</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">通</text></g><g data-mml-node="mi" transform="translate(2000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">渠</text></g><g data-mml-node="mi" transform="translate(3000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">道</text></g><g data-mml-node="mo" transform="translate(4277.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(5333.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(6211.3,0)"><path data-c="3C" d="M694 -11T694 -19T688 -33T678 -40Q671 -40 524 29T234 166L90 235Q83 240 83 250Q83 261 91 266Q664 540 678 540Q681 540 687 534T694 519T687 505Q686 504 417 376L151 250L417 124Q686 -4 687 -5Q694 -11 694 -19Z"></path></g><g data-mml-node="mi" transform="translate(7267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">干</text></g><g data-mml-node="mi" transform="translate(8267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">系</text></g><g data-mml-node="mi" transform="translate(9267.1,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">人</text></g><g data-mml-node="mo" transform="translate(10544.9,0)"><path data-c="3E" d="M84 520Q84 528 88 533T96 539L99 540Q106 540 253 471T544 334L687 265Q694 260 694 250T687 235Q685 233 395 96L107 -40H101Q83 -38 83 -20Q83 -19 83 -17Q82 -10 98 -1Q117 9 248 71Q326 108 378 132L626 250L378 368Q90 504 86 509Q84 513 84 520Z"></path></g><g data-mml-node="mo" transform="translate(11600.7,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mo" transform="translate(12378.7,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(12767.7,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(13589.9,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(14590.1,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(15090.1,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(15701.3,0)"><path data-c="F7" d="M318 466Q318 500 339 518T386 537Q418 537 438 517T458 466Q458 438 440 417T388 396Q355 396 337 417T318 466ZM56 237T56 250T70 270H706Q721 262 721 250T706 230H70Q56 237 56 250ZM318 34Q318 68 339 86T386 105Q418 105 438 85T458 34Q458 6 440 -15T388 -36Q355 -36 337 -15T318 34Z"></path></g><g data-mml-node="mn" transform="translate(16701.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg></mjx-container></span></p>
-<h1 id="案例">案例</h1>
-<div>
-<ul>
-<li>项目团队中原来有5名成员，后来又增加了4人加入项目，与之前相比项目成员之间沟通渠道增加了多少条？
-<div>
-答：26条
-</div>
-解析： <figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>原来的沟通渠道：5 * (5-1) / 2 = 10<br>加入后的沟通渠道：9 * (9-1) / 2 = 36<br>由于问的是增加了多少条，需要将加入后的沟通渠道 - 原来的沟通渠道，得出 26<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></table></figure></li>
-</ul>
-</div>
-<div>
-<ul>
-<li>两名新成员最近加入到某项目中，项目组成员原来有6名，则沟通途径增加了多少？
-<div>
-答：13
-</div>
-解析：跟上题一样</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>项目中有沟通渠道 66 条，请问项目中有
-<font color="#DF2A3F">(C)</font>干系人？
-<div>
-（A）10
-</div>
-<div>
-（A）11
-</div>
-<div>
-（A）12
-</div>
-<div>
-（A）13
-</div></li>
-</ul>
-</div>
-]]></content>
-      <categories>
-        <category>软考</category>
-      </categories>
-      <tags>
-        <tag>计算题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资源平衡（进度管理）</title>
-    <url>/2024/03/21/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E8%B5%84%E6%BA%90%E5%B9%B3%E8%A1%A1/</url>
-    <content><![CDATA[<h1 id="资源平衡进度管理">资源平衡（进度管理）</h1>
-<h2 id="案例">案例</h2>
-<ul>
-<li>下图中，如果按时完成活动 1、2、3 的概率都是 60%，那么活动 4 在第 6
-天开始的概率是多少？
-<div>
-答：22%
-</div></li>
-</ul>
-<p>解析： <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="25.265ex" height="1.882ex" role="img" focusable="false" viewBox="0 -750 11167 832"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" fill="blue" stroke="blue"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(1222.2,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mn" transform="translate(1944.4,0)"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(3166.7,0)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g><g data-mml-node="mn" transform="translate(3888.9,0)"><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g><g data-mml-node="mo" transform="translate(5166.7,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(6222.4,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z" transform="translate(500,0)"></path><path data-c="2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z" transform="translate(1000,0)"></path><path data-c="36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z" transform="translate(1278,0)"></path></g><g data-mml-node="mi" transform="translate(8000.4,0)"><path data-c="25" d="M465 605Q428 605 394 614T340 632T319 641Q332 608 332 548Q332 458 293 403T202 347Q145 347 101 402T56 548Q56 637 101 693T202 750Q241 750 272 719Q359 642 464 642Q580 642 650 732Q662 748 668 749Q670 750 673 750Q682 750 688 743T693 726Q178 -47 170 -52Q166 -56 160 -56Q147 -56 142 -45Q137 -36 142 -27Q143 -24 363 304Q469 462 525 546T581 630Q528 605 465 605ZM207 385Q235 385 263 427T292 548Q292 617 267 664T200 712Q193 712 186 709T167 698T147 668T134 615Q132 595 132 548V527Q132 436 165 403Q183 385 203 385H207ZM500 146Q500 234 544 290T647 347Q699 347 737 292T776 146T737 0T646 -56Q590 -56 545 0T500 146ZM651 -18Q679 -18 707 24T736 146Q736 215 711 262T644 309Q637 309 630 306T611 295T591 265T578 212Q577 200 577 146V124Q577 -18 647 -18H651Z"></path></g><g data-mml-node="mo" transform="translate(9111.2,0)"><path data-c="2248" d="M55 319Q55 360 72 393T114 444T163 472T205 482Q207 482 213 482T223 483Q262 483 296 468T393 413L443 381Q502 346 553 346Q609 346 649 375T694 454Q694 465 698 474T708 483Q722 483 722 452Q722 386 675 338T555 289Q514 289 468 310T388 357T308 404T224 426Q164 426 125 393T83 318Q81 289 69 289Q55 289 55 319ZM55 85Q55 126 72 159T114 210T163 238T205 248Q207 248 213 248T223 249Q262 249 296 234T393 179L443 147Q502 112 553 112Q609 112 649 141T694 220Q694 249 708 249T722 217Q722 153 675 104T555 55Q514 55 468 76T388 123T308 170T224 192Q164 192 125 159T83 84Q80 55 69 55Q55 55 55 85Z"></path></g><g data-mml-node="mn" transform="translate(10167,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z" transform="translate(500,0)"></path></g></g></g></g></g></svg></mjx-container></span></p>
-<!-- ```latex
-$60 * 60 * 60 = 21.6\% ≈ 22$
-``` -->
-<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E8%B5%84%E6%BA%90%E5%B9%B3%E8%A1%A1.png"></p>
 ]]></content>
       <categories>
         <category>软考</category>
