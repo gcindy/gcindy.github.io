@@ -7,6 +7,7 @@ h6 {
   border-bottom: 1px solid var(--line-color);
   padding-bottom: 0.25em !important;
   box-sizing: border-box;
+  margin-top: 0 !important;
 }
 
 h1 {
@@ -63,7 +64,7 @@ h6 {
 mark {
   display: block;
   margin: 1em 0;
-  background-color: #fcf8e3;
+  background-color: #faeed0;
   color: #ea9c14;
   border-radius: 0.15em;
   padding: 0.8em 0.75em !important;
