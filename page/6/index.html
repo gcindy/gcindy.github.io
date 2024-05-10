@@ -104,7 +104,9 @@
 
 
   
-<meta name="generator" content="Hexo 7.2.0"></head>
+<meta name="generator" content="Hexo 7.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 
 <body>
@@ -253,7 +255,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/29/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" target="_self">
         <div>
-          # Hooks 与 React 生命周期的关系 # react Hooks 与 React 生命周期的关系   useState：定义并初始化数据  1234567891011121314151617import &#123; useState &#125; from &#x27;react&#x27;;const RenderIndex = () =&gt; &#123;  const [co
+          # Hooks 与 React 生命周期的关系 # react Hooks 与 React 生命周期的关系   useState：定义并初始化数据  1234567891011121314151617import { useState } from 'react';const RenderIndex = () =&gt; {  const [count, set_count] = useStat
         </div>
       </a>
 
@@ -436,7 +438,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/22/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E7%9A%84%E4%BD%BF%E7%94%A8/" target="_self">
         <div>
-          1、查看是否按照 git 1git version    这是图片   2、配置用户  当前项目的用户  1git config user.name &quot;你的用户名&quot; 1git config user.email &quot;你的邮箱&quot;  全局用户  1git config --global user.name &quot;你的用户名&quot; 1git config
+          1、查看是否按照 git 1git version    这是图片   2、配置用户  当前项目的用户  1git config user.name "你的用户名" 1git config user.email "你的邮箱"  全局用户  1git config --global user.name "你的用户名" 1git config --global user.email "你的邮箱" 3、
         </div>
       </a>
 
@@ -497,7 +499,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/22/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Array/" target="_self">
         <div>
-          array.concat(arr1) \(\Rightarrow\) 连接两个或多个数组，并返回已连接数组的副本  12345const arrConcat = (arr, arr1) =&gt; &#123;  console.log(&#x27;arrConcat=====&gt;&gt;&gt;&#x27;, arr.concat(arr1));&#125;;// [ &#x27;appl
+          array.concat(arr1) \(\Rightarrow\) 连接两个或多个数组，并返回已连接数组的副本  12345const arrConcat = (arr, arr1) =&gt; {  console.log('arrConcat=====&gt;&gt;&gt;', arr.concat(arr1));};// [ 'apple', 'banana', 'pears' ]ar
         </div>
       </a>
 
@@ -626,7 +628,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/22/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Number/" target="_self">
         <div>
-          Number.isFinite(val) \(\Rightarrow\) 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber = (val) =&gt; &#123;  console.log(&#x27;isFiniteNumber=====&gt;&gt;&gt;&#x27;, Number.isFinite(val));&#125;;//
+          Number.isFinite(val) \(\Rightarrow\) 检测指定参数是否为无穷大  12345678910111213const isFiniteNumber = (val) =&gt; {  console.log('isFiniteNumber=====&gt;&gt;&gt;', Number.isFinite(val));};// trueisFiniteNumber(
         </div>
       </a>
 
@@ -694,7 +696,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/22/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Object/" target="_self">
         <div>
-          [!note] 浅拷贝：会改变原有数据 深拷贝：不会改变原有数据   Object.assign(obj, obj1) \(\Rightarrow\) 合并两个对象为一个==（此方法为浅拷贝）==  1234567891011const dealObj = (val) =&gt; &#123;  const obj = &#123; name: &#x27;苏小妍&#x27;, age: 13
+          [!note] 浅拷贝：会改变原有数据 深拷贝：不会改变原有数据   Object.assign(obj, obj1) \(\Rightarrow\) 合并两个对象为一个==（此方法为浅拷贝）==  1234567891011const dealObj = (val) =&gt; {  const obj = { name: '苏小妍', age: 13 };  let obj1 = { sex
         </div>
       </a>
 
@@ -762,7 +764,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2024/02/22/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/String/" target="_self">
         <div>
-          字符串截取  str.sclice(startIndex,[endIndex]) \(\Rightarrow\) 返回一个新的 startIndex~endIndex 之间的字符串  12345678function sliceString() &#123;  let string = &#x27;helloWorld&#x27;;  console.log(&#x27;slice==&gt;&#
+          字符串截取  str.sclice(startIndex,[endIndex]) \(\Rightarrow\) 返回一个新的 startIndex~endIndex 之间的字符串  12345678function sliceString() {  let string = 'helloWorld';  console.log('slice==&gt;', string.slice(0, 5))
         </div>
       </a>
 
@@ -822,15 +824,15 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h2 class="index-header">
         
-        <a href="/2024/02/19/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/" target="_self">
-          Git使用多个ssh
+        <a href="/2024/02/19/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%B9%8B%E5%9B%9E%E6%BB%9A%E4%BB%A3%E7%A0%81/" target="_self">
+          Git之回滚代码
         </a>
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/19/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAssh/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/02/19/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/Git/Git%E4%B9%8B%E5%9B%9E%E6%BB%9A%E4%BB%A3%E7%A0%81/" target="_self">
         <div>
-          Mac OS 下配置多个 SSH Key   git 基础教程 \(\Rightarrow\) [[Git的使用]]  1、取消全局绑定的账号 1git config –global –unset user.name 1git config –global –unset user.emai 2、生成多个 ssh key 3、在 github、码云等平台绑定创建的 ssh key 4、 在.ssh
+          git 代码撤销回滚只看这一篇就足够了！   revert：是指放弃指定提交的修改，但是会⽣成⼀次新的提交，需要填写提交注释，以前的历史记录都在  1git log 1git reset –hard 要回滚的commitID 12# 回退上一次提交git reset --hard HEAD^  reset：是指将 HEAD 指针指到指定提交，历史记录中不会出现放弃的提交记录。  1git log
         </div>
       </a>
 
