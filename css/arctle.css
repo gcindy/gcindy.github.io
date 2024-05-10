@@ -59,15 +59,15 @@ h6 {
   }
 }
 
-/* mark */
+/* mark标签样式 */
 .mark,
 mark {
   display: block;
   margin: 1em 0;
   background-color: #faeed0;
   color: #ea9c14;
-  border-radius: 0.15em;
-  padding: 0.8em 0.75em !important;
+  border-radius: 0.25em;
+  padding: 0.625em !important;
 }
 
 hr,
