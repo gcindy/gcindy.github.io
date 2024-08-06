@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/logo.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="苏小妍">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="单代号网络图 单代号网络图又称前导图法(PDM) &#x2F; 紧前关系绘图法。是以一个正方形或者长方形表达活动的一种网络图绘制方法   F-S(FInish-Start)：一个活动结束另一个活动才能开始   eg: 吃完饭才能洗碗 &#x2F; 写完代码才能部署项目  F-F：一个活动结束另一个活动才能结束   eg: 婚礼仪式结束，婚礼才算结束  S-S：一个活动开始另一个活动才能开始   eg: 运动会比赛：枪">
+<meta property="og:type" content="article">
+<meta property="og:title" content="单代号网络图">
+<meta property="og:url" content="https://dev.gongyibai.cn/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE/index.html">
+<meta property="og:site_name" content="代码笔墨">
+<meta property="og:description" content="单代号网络图 单代号网络图又称前导图法(PDM) &#x2F; 紧前关系绘图法。是以一个正方形或者长方形表达活动的一种网络图绘制方法   F-S(FInish-Start)：一个活动结束另一个活动才能开始   eg: 吃完饭才能洗碗 &#x2F; 写完代码才能部署项目  F-F：一个活动结束另一个活动才能结束   eg: 婚礼仪式结束，婚礼才算结束  S-S：一个活动开始另一个活动才能开始   eg: 运动会比赛：枪">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png">
+<meta property="article:published_time" content="2024-04-01T01:33:00.000Z">
+<meta property="article:modified_time" content="2024-05-06T01:23:49.350Z">
+<meta property="article:author" content="苏小妍">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>单代号网络图 - 代码笔墨</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/arctle.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"dev.gongyibai.cn","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":6},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+    <!-- Google tag (gtag.js) -->
+    <script async>
+      if (!Fluid.ctx.dnt) {
+        Fluid.utils.createScript("https://www.googletagmanager.com/gtag/js?id=", function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', '');
+        });
+      }
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+<meta name="generator" content="Hexo 7.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>代码笔墨</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于我</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="单代号网络图"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-04-01 09:33" pubdate>
+          2024年4月1日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          761 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          7 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">单代号网络图</h1>
+            
+              <p id="updated-time" class="note note-info" style="">
+                
+                  
+                    本文最后更新于 2024年5月6日 上午
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="单代号网络图">单代号网络图</h1>
+<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>单代号网络图又称前导图法(PDM)
+/
+紧前关系绘图法</strong>。是以一个正方形或者长方形表达活动的一种网络图绘制方法</mark>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png" srcset="/img/loading.gif" lazyload></p>
+<ul>
+<li>F-S(FInish-Start)：一个活动结束另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png" srcset="/img/loading.gif" lazyload>
+<ul>
+<li><font color="#2F8EF4">eg: 吃完饭才能洗碗 /
+写完代码才能部署项目</font></li>
+</ul></li>
+<li>F-F：一个活动结束另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png" srcset="/img/loading.gif" lazyload>
+<ul>
+<li><font color="#2F8EF4">eg: 婚礼仪式结束，婚礼才算结束</font></li>
+</ul></li>
+<li>S-S：一个活动开始另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" srcset="/img/loading.gif" lazyload>
+<ul>
+<li><font color="#2F8EF4">eg:
+运动会比赛：枪响声开始，裁判才开始计时</font></li>
+</ul></li>
+<li>S-F：一个活动开始另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png" srcset="/img/loading.gif" lazyload>
+<ul>
+<li><font color="#2F8EF4">eg: 保安 B 交班了，保安 A 才能下班</font></li>
+</ul></li>
+<li>紧前活动 A、B、C 都完成才能进行活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png" srcset="/img/loading.gif" lazyload></li>
+<li>紧后活动 A、B、C 都有一个共同的紧前活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png" srcset="/img/loading.gif" lazyload></li>
+</ul>
+<h3 id="案例">案例</h3>
+<div>
+<ol type="1">
+<li>在工程网络计划中，工作M的最早开始时间是第16天，其持续时间是5天。该工作有三项紧后工作，他们的最早开始时间分别为第25天、第27天和第30天，最迟开始时间分别为第28天、第29天和第30天。则工作M的总时差为<font color="#DF2A3F">(C)</font>天&gt;?
+<div>
+A）5
+</div>
+<div>
+B）6
+</div>
+<div>
+C）7
+</div>
+<div>
+D）9
+</div>
+<div>
+解析：
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png" srcset="/img/loading.gif" lazyload></li>
+</ol>
+<figure class="highlight latex"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由六标时网络图绘制可知最早开始时间是第16天，持续时间是5天，最早的完成时间为21天，最迟开工为28天。<br>  根据逆推法可得知：<br>  最晚的开始时间为28天<br>  28-21 = 7<br>  所以，最晚开始持续时间为7天<br>  最晚开始时间 = 16+7 = 23<br>  再带入总时差计算公式：总时差 = LS-ES = LF-EF<br>  总时差 = 23-16 = 28-21 = 7<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+<div>
+<ol start="2" type="1">
+<li>某工程建设项目中各工序历时如下图所示，则本项目最快完成时间为<font color="#DF2A3F">(13)周</font>。同时，通过<font color="#DF2A3F">(1、5)</font>可以缩短项目工期。
+<div>
+① 压缩B工序时间
+</div>
+<div>
+② 压缩H工序时间
+</div>
+<div>
+③ 同时开展A工序和H工序
+</div>
+<div>
+④ 压缩F工序时间
+</div>
+<div>
+⑤ 压缩G工序时间
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png" srcset="/img/loading.gif" lazyload>
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  <span class="hljs-params">#</span> 算关键路径，即算最快完成时间<br>  <span class="hljs-params">##</span> 由上图单代号网络图可先算出路径和总用时时间<br>  ABHI  12<br>  ABEGI 13<br>  ABDFJ 12<br>  ACFJ  11<br>  <span class="hljs-params">##</span> 由此可得最快完成时间为13周 <br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure></li>
+</ol>
+</div>
+<div>
+<ol start="3" type="1">
+<li>下图某个工程单代号网络图中，活动B的总浮动时间为<font color="#DF2A3F">(D)</font>天。
+<div>
+A）1
+</div>
+<div>
+B）2
+</div>
+<div>
+C）3
+</div>
+<div>
+D）4
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png" srcset="/img/loading.gif" lazyload></li>
+</ol>
+</div>
+<div>
+<ol start="4" type="1">
+<li>某工程由8个活动组成，其各活动情况如下表所示，该工厂关键路径为<font color="#DF2A3F">(B)</font>。
+<div>
+A）ABCEGI
+</div>
+<div>
+B）ABCFHI
+</div>
+<div>
+C）ABDHI
+</div>
+<div>
+D）ABDI
+</div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">活动</th>
+<th style="text-align: center;">紧前活动</th>
+<th style="text-align: center;">所需天数</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">G</td>
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">H</td>
+<td style="text-align: center;">FG</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">HD</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png" srcset="/img/loading.gif" lazyload></p>
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  ABCEGHI: 23<br>  ABDI: 14<br>  ABCFHI: 23<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+<div>
+5.下面某项目规划的进度网络图（单位：周），在实际实施过程中，活动B-E比计划延迟2周，活动J-K比计划提前了3周，则该项目的关键路径是<font color="#DF2A3F">(A-B-E-H-K)</font>。，总工期是<font color="#DF2A3F">(15)</font>周。
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png" srcset="/img/loading.gif" lazyload><br>
+
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由题目可知，B-E的工期实际是6周，而J-K实际工期是2周。<br>  ABEHK: 3+6+2+4 = 15<br>  ABFK: 3+6+3 = 12<br>  ACFK: 4+2+3 = 9<br>  ADFK: 2+3+3 = 8<br>  ADGIJK: 4+3+2+2 = 11<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%BD%AF%E8%80%83/" class="category-chain-item">软考</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AF%E8%80%83/%E8%AE%A1%E7%AE%97%E9%A2%98/" class="category-chain-item">计算题</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AF%E8%80%83/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/" class="category-chain-item">进度类</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>单代号网络图</div>
+      <div>https://dev.gongyibai.cn/系统集成项目工程管理师/计算题/进度类/单代号网络图/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>苏小妍</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年4月1日</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>更新于</div>
+          <div>2024年5月6日</div>
+        </div>
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE/" title="六标时网络图">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">六标时网络图</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/ui%E7%B3%BB%E5%88%97/adobe%20Photoshop/" title="Adobe Photoshop">
+                        <span class="hidden-mobile">Adobe Photoshop</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://github.com/gcindy?tab=repositories" target="_blank" rel="nofollow noopener"><span>GitHub</span></a> <i class="iconfont icon-love"></i> <a href="https://www.yuque.com/dashboard" target="_blank" rel="nofollow noopener"><span>语雀</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

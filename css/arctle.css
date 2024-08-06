@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 0.25em !important;
+  box-sizing: border-box;
+  margin-top: 0 !important;
+}
+
+h1 {
+  color: #d20f39 !important;
+}
+
+h2 {
+  color: #fe640c !important;
+}
+
+h3 {
+  color: #40a02b !important;
+}
+
+h4 {
+  color: #169299 !important;
+}
+
+h5 {
+  color: #7287fd !important;
+}
+
+h6 {
+  color: #8839ef !important;
+}
+
+.MathJax {
+  color: #e1b0ac;
+  text-align: left !important;
+}
+
+.latex-box {
+  display: flex;
+  P {
+    flex: 1;
+  }
+}
+
+.markdown-body {
+  overflow: hidden;
+}
+
+/* 块引用 */
+.markdown-body blockquote {
+  background-color: #eaf7d6;
+  color: #659818;
+  /* border-left: 0.25em solid #e3e5df; */
+  border: 0;
+  border-radius: 0.15em;
+  padding: 0.35em 0;
+  font {
+    font-weight: bold;
+  }
+}
+
+/* mark标签样式 */
+.mark,
+mark {
+  display: block;
+  margin: 1em 0;
+  background-color: #faeed0;
+  color: #ea9c14;
+  border-radius: 0.25em;
+  padding: 0.625em !important;
+  line-height: 1.6em;
+}
+
+hr,
+.markdown-body hr {
+  border: none;
+}
+
+table {
+  width: 100%; /*表格宽度*/
+  display: inline-table !important;
+  border: 1px solid #dedede; /*表格外边框设置*/
+  border-collapse: collapse; /*使用单一线条的边框*/
+}
+
+table th {
+  font-weight: bold; /*加粗*/
+  text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
+  background-color: rgba(158, 188, 226, 0.2) !important; /*背景色*/
+}
+
+table tr:hover {
+  background-color: #efefef !important;
+}
+
+embed {
+  width: 100%;
+}
