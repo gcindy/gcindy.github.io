@@ -25,9 +25,8 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FDefaultTextStyle.png">
-<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fbutton.png">
 <meta property="article:published_time" content="2024-08-06T02:04:00.000Z">
-<meta property="article:modified_time" content="2024-08-06T07:55:03.370Z">
+<meta property="article:modified_time" content="2024-08-06T08:40:51.374Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
@@ -246,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          601 字
+          677 字
         
       </span>
     
@@ -371,16 +370,58 @@
 <h3 id="图标-文字按钮">图标 ➕ 文字按钮</h3>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span>  OutlinedButton.icon(<br>      icon: <span class="hljs-keyword">const</span> Icon(Icons.send),<br>      label: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"发送"</span>),<br>      onPressed: () {},<br>    )<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
 <h2 id="图片-icon">图片 &amp; icon</h2>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span>  OutlinedButton(<br>      child: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"边框按钮"</span>),<br>      onPressed: () {},<br>    )<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fbutton.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="单选开关-复选框">单选开关 &amp; 复选框</h2>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span>  OutlinedButton(<br>      child: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"边框按钮"</span>),<br>      onPressed: () {},<br>    )<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<h2 id="输入-表单">输入 &amp; 表单</h2>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span>  OutlinedButton(<br>      child: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"边框按钮"</span>),<br>      onPressed: () {},<br>    )<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<h2 id="进度指示器">进度指示器</h2>
-<h1 id="布局类组件">布局类组件</h1>
-<h1 id="容器类组件">容器类组件</h1>
-<h1 id="可滚动组件">可滚动组件</h1>
+<h3 id="本地添加">本地添加</h3>
+<ul>
+<li>在根目录下添加 images 文件夹并放入想展示的图片</li>
+<li>pubspec.yml</li>
+</ul>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">assets:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">images/avatar.png</span><br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>代码</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> Image(image: AssetImage(<span class="hljs-string">"images/avatar.png"</span>), width: <span class="hljs-number">100.0</span>),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>		<span class="hljs-comment">// 快捷构造函数</span><br>    <span class="hljs-keyword">return</span> Image.asset(<span class="hljs-string">"images/avatar.png"</span>,width: <span class="hljs-number">100.0</span>,),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<h3 id="网络图">网络图</h3>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>		<span class="hljs-comment">// 快捷构造函数</span><br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> Image(<br>      image: NetworkImage(<br>		     <span class="hljs-string">"https://images.pexels.com/photos/23600778/pexels-photo-23600778.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"</span>),<br>      width: <span class="hljs-number">100.0</span>),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>		<span class="hljs-comment">// 快捷构造函数</span><br>    <span class="hljs-keyword">return</span> Image.network(<br>			<span class="hljs-string">"https://images.pexels.com/photos/26748010/pexels-photo-26748010.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"</span>,<br>			width: <span class="hljs-number">100.0</span>,<br>    ),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<h3 id="icon">icon</h3>
+<!-- ## 单选开关 & 复选框
+
+```Dart
+class _MyWidgetState extends State<MyWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return  OutlinedButton(
+      child: const Text("边框按钮"),
+      onPressed: () {},
+    )
+  }
+}
+
+``` -->
+<!--
+## 输入 & 表单
+
+```Dart
+class _MyWidgetState extends State<MyWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return  OutlinedButton(
+      child: const Text("边框按钮"),
+      onPressed: () {},
+    )
+  }
+}
+
+``` -->
+<!--
+## 进度指示器
+
+# 布局类组件
+
+# 容器类组件
+
+# 可滚动组件 -->
 
                 
               </div>
