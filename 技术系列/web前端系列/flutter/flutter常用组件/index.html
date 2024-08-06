@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FDefaultTextStyle.png">
 <meta property="article:published_time" content="2024-08-06T02:04:00.000Z">
-<meta property="article:modified_time" content="2024-08-06T08:40:51.374Z">
+<meta property="article:modified_time" content="2024-08-06T09:16:22.263Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
@@ -245,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          677 字
+          822 字
         
       </span>
     
@@ -256,7 +256,7 @@
         
         
         
-          6 分钟
+          7 分钟
         
       </span>
     
@@ -385,44 +385,41 @@
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>		<span class="hljs-comment">// 快捷构造函数</span><br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> Image(<br>      image: NetworkImage(<br>		     <span class="hljs-string">"https://images.pexels.com/photos/23600778/pexels-photo-23600778.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"</span>),<br>      width: <span class="hljs-number">100.0</span>),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>		<span class="hljs-comment">// 快捷构造函数</span><br>    <span class="hljs-keyword">return</span> Image.network(<br>			<span class="hljs-string">"https://images.pexels.com/photos/26748010/pexels-photo-26748010.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"</span>,<br>			width: <span class="hljs-number">100.0</span>,<br>    ),<br>  }<br>}<br><br></code></pre></td></tr></tbody></table></figure>
 <h3 id="icon">icon</h3>
+<ul>
+<li>内置</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Icon(Icons.accessible, color: Colors.green,size:<span class="hljs-number">129</span>)<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li><p>自定义</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/wniuniu_/article/details/131972068">flutter
+实战 之 自定义 icon</a></p>
+</blockquote>
+<ol type="1">
+<li><div>
+去<a href="https://www.iconfont.cn/" target="_blank">iconfont</a>找图标添加到项目并下载本地解压
+</div></li>
+<li>后找到解压文件夹下的<strong>iconfont.json</strong>和<strong>iconfont.ttf</strong></li>
+<li>在目录下创建 fonts 文件夹</li>
+<li>将<strong>iconfont.ttf</strong>放到 fonts 文件夹内</li>
+<li>在 pubspec.yaml 中放入以下内容</li>
+</ol>
+<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-bullet">-</span> <span class="hljs-attr">family:</span> <span class="hljs-string">myIcon</span><br>  <span class="hljs-attr">fonts:</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-attr">asset:</span> <span class="hljs-string">assets/font/iconfont.ttf</span><br></code></pre></td></tr></tbody></table></figure>
+<ol start="6" type="1">
+<li><p>查看<strong><em>iconfont.json</em></strong>中的<strong>unicode</strong></p></li>
+<li><p>创建一个 myIcon 类，用于存放 Icon</p></li>
+</ol>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ItyingFont</span> </span>{<br><span class="hljs-keyword">static</span> <span class="hljs-keyword">const</span> IconData icon1 =<br>    IconData(<span class="hljs-number">0xe617</span>, fontFamily: <span class="hljs-string">"myIcon"</span>, matchTextDirection: <span class="hljs-keyword">true</span>);<br><span class="hljs-keyword">static</span> <span class="hljs-keyword">const</span> IconData icon2 =<br>    IconData(<span class="hljs-number">0xe603</span>, fontFamily: <span class="hljs-string">"myIcon"</span>, matchTextDirection: <span class="hljs-keyword">true</span>);<br><span class="hljs-keyword">static</span> <span class="hljs-keyword">const</span> IconData icon3 =<br>    IconData(<span class="hljs-number">0xe604</span>, fontFamily: <span class="hljs-string">"myIcon"</span>, matchTextDirection: <span class="hljs-keyword">true</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
+<ol start="8" type="1">
+<li>使用图标</li>
+</ol>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_run/myIcon.dart'</span>;<br>Icon(ItyingFont.icon3, size: <span class="hljs-number">30</span>, color: Colors.green),<br></code></pre></td></tr></tbody></table></figure></li>
+</ul>
 <!-- ## 单选开关 & 复选框
 
-```Dart
-class _MyWidgetState extends State<MyWidget> {
-  @override
-  Widget build(BuildContext context) {
-    return  OutlinedButton(
-      child: const Text("边框按钮"),
-      onPressed: () {},
-    )
-  }
-}
-
-``` -->
-<!--
-## 输入 & 表单
-
-```Dart
-class _MyWidgetState extends State<MyWidget> {
-  @override
-  Widget build(BuildContext context) {
-    return  OutlinedButton(
-      child: const Text("边框按钮"),
-      onPressed: () {},
-    )
-  }
-}
-
-``` -->
-<!--
-## 进度指示器
-
-# 布局类组件
-
-# 容器类组件
-
-# 可滚动组件 -->
-
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs `Dart">class _MyWidgetState extends State&lt;MyWidget&gt; &#123;<br>  @override<br>  Widget build(BuildContext context) &#123;<br>    return  OutlinedButton(<br>      child: const Text(&quot;边框按钮&quot;),<br>      onPressed: () &#123;&#125;,<br>    )<br>  &#125;<br>&#125;<br><br>``` --&gt;<br>&lt;!--<br>## 输入 &amp; 表单<br><br>```Dart<br>class _MyWidgetState extends State&lt;MyWidget&gt; &#123;<br>  @override<br>  Widget build(BuildContext context) &#123;<br>    return  OutlinedButton(<br>      child: const Text(&quot;边框按钮&quot;),<br>      onPressed: () &#123;&#125;,<br>    )<br>  &#125;<br>&#125;<br><br>``` --&gt;<br>&lt;!--<br>## 进度指示器<br><br># 布局类组件<br><br># 容器类组件<br><br># 可滚动组件 --&gt;<br><br></code></pre></td></tr></table></figure>
+<p>```</p>
+-->
                 
               </div>
             
