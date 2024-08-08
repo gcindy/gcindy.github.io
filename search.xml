@@ -223,85 +223,6 @@ Mograph - Motion v2.rar</a></li>
       </categories>
   </entry>
   <entry>
-    <title>Ui相关知识</title>
-    <url>/ui%E7%B3%BB%E5%88%97/ui%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<h1 id="文章">文章</h1>
-<p>来自: <a href="https://pixso.cn/designskills/design-psychology/">设计师不得不知道的
-3 个设计心理学原理</a></p>
-<p>来自: <a href="https://www.uisdc.com/10-deterioration-design-rules">超全面！防呆设计的
-10 个通用设计原则 - 优设网 - 学设计上优设</a></p>
-<p>来自: <a href="https://www.shejitk.com/archives/9689">如何让你的设计不那么千篇一律</a></p>
-<p>来自: <a href="https://www.shejitk.com/archives/11514">从修改密码需求看「实现模型」与「心理模型」的差别</a></p>
-<p>来自: <a href="https://www.shejitk.com/archives/3311">最近节日如此多，设计师的你加班吗？</a></p>
-<p>来自: <a href="https://huke88.com/article/7792.html">UI
-是道数学题之组件篇</a></p>
-<p>来自: <a href="https://huke88.com/article/4993.html">设计师必须要知道的五大交互心理学</a></p>
-<p>来自: <a href="https://www.uisdc.com/design-psychology-book-recommendation">来充电啦！推荐几本经典的设计心理学书籍（附节选及
-PDF）</a></p>
-<h1 id="书籍">书籍</h1>
-<p><a href="https://hao.uisdc.com/book/">设计师需要读的 100 本书</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/597457966">2023
-年，设计师必读（用户体验设计）推荐阅读书单 (30 本,含豆瓣评分)</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/616753618">收藏！2023
-年用户体验设计推荐热门书单</a></p>
-<p><a href="https://m.ui.cn/details/642721">2023 设计读书营丨为 UI/UX
-设计...</a></p>
-<p>《设计心理学（1-4 册)》 ([美]唐纳德·A·诺曼)</p>
-<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%AE%BE%E8%AE%A1%E5%BF%83%E7%90%86%E5%AD%A6%EF%BC%881-4%E5%86%8C%EF%BC%89%20%28%5B%E7%BE%8E%5D%E5%94%90%E7%BA%B3%E5%BE%B7%C2%B7A%C2%B7%E8%AF%BA%E6%9B%BC%29%20%28Z-Library%29.pdf">📎
-设计心理学（1-4 册） ([美]唐纳德·A·诺曼) (Z-Library).pdf</a></p>
-<p>《设计师要懂心理学》</p>
-<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E6%87%82%E5%BF%83%E7%90%86%E5%AD%A6-Susan%2BWeinschenk.pdf">📎
-设计师要懂心理学-Susan+Weinschenk.pdf</a></p>
-<p>《用户体验设计：100 堂入门课》 (乔尔·马什)</p>
-<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%9A100%E5%A0%82%E5%85%A5%E9%97%A8%E8%AF%BE%20%28%E4%B9%94%E5%B0%94%C2%B7%E9%A9%AC%E4%BB%80%29%20%28Z-Library%29.pdf">📎
-用户体验设计：100 堂入门课 (乔尔·马什) (Z-Library).pdf</a></p>
-<p>《这才是用户体验设计：人人都能看懂的产品设计书》 (李磊)</p>
-<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%BF%99%E6%89%8D%E6%98%AF%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%9A%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E4%B9%A6%20%28%E6%9D%8E%E7%A3%8A%29%20%28Z-Library%29.pdf">📎
-这才是用户体验设计：人人都能看懂的产品设计书 (李磊)
-(Z-Library).pdf</a></p>
-]]></content>
-      <categories>
-        <category>UI知识</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>gitee➕Hexo搭建博客</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/gitee%E2%9E%95Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="gitee-配置">gitee 配置</h1>
-<h1 id="本地配置">本地配置</h1>
-<h2 id="搭建-hexo-环境">搭建 hexo 环境</h2>
-<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><code class="hljs powershell">npm install <span class="hljs-literal">-g</span> hexo<span class="hljs-literal">-cli</span><br></code></pre></td></tr></tbody></table></figure>
-<h2 id="初始化博客">初始化博客</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo init 博客名<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="对创建的博客进行静态部署">对创建的博客进行静态部署</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo g<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="本地运行">本地运行</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo s<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="找到-_config.yml-文件">找到 ### _config.yml 文件</h2>
-<h3 id="配置-git-环境">配置 git 环境</h3>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">deploy:<br>type: 'git'<br>repository: 你的仓库地址<br>branch: 绑定的仓库分支<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="安装-git-插件">安装 Git 插件</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">npm i hexo-theme-butterfly<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="清楚缓存">清楚缓存</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo clean<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="安装-git-插件-1">安装 Git 插件</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo g<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="部署到-gitee">部署到 gitee</h2>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo d<br></code></pre></td></tr></tbody></table></figure>
-<blockquote>
-<p><a href="https://juejin.cn/s/gitee%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%87%BA%E6%9D%A5%E6%98%BE%E7%A4%BA404">gitee
-部署博客出来显示 404</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Adobe Photoshop</title>
     <url>/ui%E7%B3%BB%E5%88%97/adobe%20Photoshop/</url>
     <content><![CDATA[<h1 id="分辨率单位ppi">分辨率：单位(ppi)</h1>
@@ -622,6 +543,85 @@ jpeg：做兼职或者平时预览的图片，只有一个图层。<font color="
       <categories>
         <category>UI知识</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Ui相关知识</title>
+    <url>/ui%E7%B3%BB%E5%88%97/ui%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h1 id="文章">文章</h1>
+<p>来自: <a href="https://pixso.cn/designskills/design-psychology/">设计师不得不知道的
+3 个设计心理学原理</a></p>
+<p>来自: <a href="https://www.uisdc.com/10-deterioration-design-rules">超全面！防呆设计的
+10 个通用设计原则 - 优设网 - 学设计上优设</a></p>
+<p>来自: <a href="https://www.shejitk.com/archives/9689">如何让你的设计不那么千篇一律</a></p>
+<p>来自: <a href="https://www.shejitk.com/archives/11514">从修改密码需求看「实现模型」与「心理模型」的差别</a></p>
+<p>来自: <a href="https://www.shejitk.com/archives/3311">最近节日如此多，设计师的你加班吗？</a></p>
+<p>来自: <a href="https://huke88.com/article/7792.html">UI
+是道数学题之组件篇</a></p>
+<p>来自: <a href="https://huke88.com/article/4993.html">设计师必须要知道的五大交互心理学</a></p>
+<p>来自: <a href="https://www.uisdc.com/design-psychology-book-recommendation">来充电啦！推荐几本经典的设计心理学书籍（附节选及
+PDF）</a></p>
+<h1 id="书籍">书籍</h1>
+<p><a href="https://hao.uisdc.com/book/">设计师需要读的 100 本书</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/597457966">2023
+年，设计师必读（用户体验设计）推荐阅读书单 (30 本,含豆瓣评分)</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/616753618">收藏！2023
+年用户体验设计推荐热门书单</a></p>
+<p><a href="https://m.ui.cn/details/642721">2023 设计读书营丨为 UI/UX
+设计...</a></p>
+<p>《设计心理学（1-4 册)》 ([美]唐纳德·A·诺曼)</p>
+<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%AE%BE%E8%AE%A1%E5%BF%83%E7%90%86%E5%AD%A6%EF%BC%881-4%E5%86%8C%EF%BC%89%20%28%5B%E7%BE%8E%5D%E5%94%90%E7%BA%B3%E5%BE%B7%C2%B7A%C2%B7%E8%AF%BA%E6%9B%BC%29%20%28Z-Library%29.pdf">📎
+设计心理学（1-4 册） ([美]唐纳德·A·诺曼) (Z-Library).pdf</a></p>
+<p>《设计师要懂心理学》</p>
+<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E6%87%82%E5%BF%83%E7%90%86%E5%AD%A6-Susan%2BWeinschenk.pdf">📎
+设计师要懂心理学-Susan+Weinschenk.pdf</a></p>
+<p>《用户体验设计：100 堂入门课》 (乔尔·马什)</p>
+<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%9A100%E5%A0%82%E5%85%A5%E9%97%A8%E8%AF%BE%20%28%E4%B9%94%E5%B0%94%C2%B7%E9%A9%AC%E4%BB%80%29%20%28Z-Library%29.pdf">📎
+用户体验设计：100 堂入门课 (乔尔·马什) (Z-Library).pdf</a></p>
+<p>《这才是用户体验设计：人人都能看懂的产品设计书》 (李磊)</p>
+<p><a href="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/files/%E8%BF%99%E6%89%8D%E6%98%AF%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%9A%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E4%B9%A6%20%28%E6%9D%8E%E7%A3%8A%29%20%28Z-Library%29.pdf">📎
+这才是用户体验设计：人人都能看懂的产品设计书 (李磊)
+(Z-Library).pdf</a></p>
+]]></content>
+      <categories>
+        <category>UI知识</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>gitee➕Hexo搭建博客</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/gitee%E2%9E%95Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="gitee-配置">gitee 配置</h1>
+<h1 id="本地配置">本地配置</h1>
+<h2 id="搭建-hexo-环境">搭建 hexo 环境</h2>
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><code class="hljs powershell">npm install <span class="hljs-literal">-g</span> hexo<span class="hljs-literal">-cli</span><br></code></pre></td></tr></tbody></table></figure>
+<h2 id="初始化博客">初始化博客</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo init 博客名<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="对创建的博客进行静态部署">对创建的博客进行静态部署</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo g<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="本地运行">本地运行</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo s<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="找到-_config.yml-文件">找到 ### _config.yml 文件</h2>
+<h3 id="配置-git-环境">配置 git 环境</h3>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">deploy:<br>type: 'git'<br>repository: 你的仓库地址<br>branch: 绑定的仓库分支<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="安装-git-插件">安装 Git 插件</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">npm i hexo-theme-butterfly<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="清楚缓存">清楚缓存</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo clean<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="安装-git-插件-1">安装 Git 插件</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo g<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="部署到-gitee">部署到 gitee</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><code class="hljs shell">hexo d<br></code></pre></td></tr></tbody></table></figure>
+<blockquote>
+<p><a href="https://juejin.cn/s/gitee%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%87%BA%E6%9D%A5%E6%98%BE%E7%A4%BA404">gitee
+部署博客出来显示 404</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Macos修改指定ip</title>
@@ -1258,15 +1258,6 @@ Internet
       </categories>
   </entry>
   <entry>
-    <title>第二章</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>软考</category>
-        <category>课程</category>
-      </categories>
-  </entry>
-  <entry>
     <title>第九章</title>
     <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E4%B9%9D%E7%AB%A0/</url>
     <content><![CDATA[<h1 id="项目管理概论">项目管理概论</h1>
@@ -1458,17 +1449,8 @@ Internet
       </categories>
   </entry>
   <entry>
-    <title>第八章</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%85%AB%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>软考</category>
-        <category>课程</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>第十一章</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0/</url>
+    <title>第二章</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>软考</category>
@@ -1485,8 +1467,26 @@ Internet
       </categories>
   </entry>
   <entry>
+    <title>第八章</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%85%AB%E7%AB%A0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>软考</category>
+        <category>课程</category>
+      </categories>
+  </entry>
+  <entry>
     <title>第六章</title>
     <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%85%AD%E7%AB%A0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>软考</category>
+        <category>课程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第十一章</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>软考</category>
@@ -1521,8 +1521,8 @@ Internet
       </categories>
   </entry>
   <entry>
-    <title>第十八章</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0/</url>
+    <title>第十五章</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>软考</category>
@@ -1530,8 +1530,8 @@ Internet
       </categories>
   </entry>
   <entry>
-    <title>第十五章</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0/</url>
+    <title>第十八章</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AF%BE%E7%A8%8B/%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>软考</category>
@@ -1767,6 +1767,32 @@ github、码云等平台绑定创建的 ssh key</h1>
       </categories>
   </entry>
   <entry>
+    <title>React之设置文件夹别名</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%20%E4%B9%8B%20%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E5%A4%B9%E5%88%AB%E5%90%8D/</url>
+    <content><![CDATA[<p><a href="https://juejin.cn/post/7327500902109806629">前端开发小技巧 -
+【React】- 配置@别名路径 以及 路径联想</a></p>
+<ul>
+<li>安装 caro 工具包</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npm i `@craco/craco -D<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>在项目根目录下 创建 craco.config.js 配置文件</li>
+</ul>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><code class="hljs js"><span class="hljs-comment">// 从 node 中导入 内置的 path 模块</span><br><span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);<br><br><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {<br>  <span class="hljs-comment">// webpack配置</span><br>  <span class="hljs-attr">webpack</span>: {<br>    <span class="hljs-comment">// 配置别名</span><br>    <span class="hljs-attr">alias</span>: {<br>      <span class="hljs-comment">// 约定使用 @ 表示 src 文件所在目录</span><br>      <span class="hljs-string">'@'</span>: path.<span class="hljs-title function_">resolve</span>(__dirname, <span class="hljs-string">'src'</span>),<br>    },<br>  },<br>};<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>修改 script 命令</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">"scripts": {<br>	"start": "craco start",<br>	"build": "craco build",<br>	"test": "craco test",<br>	"eject": "craco eject"<br>},<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>重启项目</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>React</category>
+      </categories>
+  </entry>
+  <entry>
     <title>React之scss的使用</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E4%B9%8Bscss%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<ul>
@@ -1911,6 +1937,32 @@ Router(react-router-dom V6 整理)</a></p>
       </categories>
   </entry>
   <entry>
+    <title>React的安装&amp;创建项目</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E5%AE%89%E8%A3%85%20&amp;%20%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://zh-hans.react.dev/">React 教程</a></p>
+</blockquote>
+<h1 id="安装环境">1、安装环境</h1>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npm install -g create-react-app<br></code></pre></td></tr></tbody></table></figure>
+<h1 id="查看脚手架版本号">2、查看脚手架版本号</h1>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">create-react-app -V / create-react-app -version<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>未安装成功 / 未安装会展示<br>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202402281756266.png"></li>
+<li>安装成功会展示版本号<br>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202402281756268.png"></li>
+</ul>
+<h1 id="创建应用">3、创建应用</h1>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">create-react-app 项目名<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npx create-react-app 项目名<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh"># 创建typescript项目<br>npx create-react-app 项目名 --template typescript<br></code></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>React</category>
+      </categories>
+  </entry>
+  <entry>
     <title>React的生命周期&amp;创建项目</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     <content><![CDATA[<blockquote>
@@ -1946,32 +1998,6 @@ Router(react-router-dom V6 整理)</a></p>
 <li>usereducer：</li>
 </ul>
 <figure class="highlight jsx"><table><tbody><tr><td class="code"><pre><code class="hljs jsx"><br></code></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>React</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>React的安装&amp;创建项目</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%E7%9A%84%E5%AE%89%E8%A3%85%20&amp;%20%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://zh-hans.react.dev/">React 教程</a></p>
-</blockquote>
-<h1 id="安装环境">1、安装环境</h1>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npm install -g create-react-app<br></code></pre></td></tr></tbody></table></figure>
-<h1 id="查看脚手架版本号">2、查看脚手架版本号</h1>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">create-react-app -V / create-react-app -version<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>未安装成功 / 未安装会展示<br>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202402281756266.png"></li>
-<li>安装成功会展示版本号<br>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/202402281756268.png"></li>
-</ul>
-<h1 id="创建应用">3、创建应用</h1>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">create-react-app 项目名<br></code></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npx create-react-app 项目名<br></code></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh"># 创建typescript项目<br>npx create-react-app 项目名 --template typescript<br></code></pre></td></tr></tbody></table></figure>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -2157,6 +2183,15 @@ Router(react-router-dom V6 整理)</a></p>
       </categories>
   </entry>
   <entry>
+    <title>Flutter常用组件 - 布局类组件</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B62/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>flutter</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Flutter常用组件 - 基础组件</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="文本-组件详情">文本 <a href="https://blog.csdn.net/longlyboyhe/article/details/111085278">组件详情</a></h1>
@@ -2315,41 +2350,6 @@ LinearProgressIndicator &amp; CircularProgressIndicator</h1>
       </categories>
   </entry>
   <entry>
-    <title>React之设置文件夹别名</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/React/React%20%E4%B9%8B%20%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E5%A4%B9%E5%88%AB%E5%90%8D/</url>
-    <content><![CDATA[<p><a href="https://juejin.cn/post/7327500902109806629">前端开发小技巧 -
-【React】- 配置@别名路径 以及 路径联想</a></p>
-<ul>
-<li>安装 caro 工具包</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">npm i `@craco/craco -D<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>在项目根目录下 创建 craco.config.js 配置文件</li>
-</ul>
-<figure class="highlight js"><table><tbody><tr><td class="code"><pre><code class="hljs js"><span class="hljs-comment">// 从 node 中导入 内置的 path 模块</span><br><span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);<br><br><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {<br>  <span class="hljs-comment">// webpack配置</span><br>  <span class="hljs-attr">webpack</span>: {<br>    <span class="hljs-comment">// 配置别名</span><br>    <span class="hljs-attr">alias</span>: {<br>      <span class="hljs-comment">// 约定使用 @ 表示 src 文件所在目录</span><br>      <span class="hljs-string">'@'</span>: path.<span class="hljs-title function_">resolve</span>(__dirname, <span class="hljs-string">'src'</span>),<br>    },<br>  },<br>};<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>修改 script 命令</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><code class="hljs ssh">"scripts": {<br>	"start": "craco start",<br>	"build": "craco build",<br>	"test": "craco test",<br>	"eject": "craco eject"<br>},<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>重启项目</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>React</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Flutter常用组件 - 布局类组件</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B62/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>flutter</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Flutter常用组件 - 容器类组件</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B63/</url>
     <content><![CDATA[]]></content>
@@ -2420,22 +2420,6 @@ BuildContext 创建并返回 widget 树
 ]]></content>
   </entry>
   <entry>
-    <title>初识Flutter</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%88%9D%E8%AF%86flutter/</url>
-    <content><![CDATA[<p><a href="../widget简介">widget简介</a></p>
-<h1 id="初识-flutter">初识 flutter</h1>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-comment">// 主入口 ==&gt; 即程序的入口</span><br><span class="hljs-keyword">void</span> main() {<br>  runApp(<span class="hljs-keyword">const</span> MyApp());<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-comment">// 整个是组件 Widget</span><br>  <span class="hljs-comment">// override 代表覆写父类build方法</span><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> MaterialApp(<br>      showPerformanceOverlay: <span class="hljs-keyword">false</span>, <span class="hljs-comment">// 是否开启布局网格辅助</span><br>      debugShowCheckedModeBanner: <span class="hljs-keyword">false</span>, <span class="hljs-comment">// 右上角debug是否开启</span><br>      title: <span class="hljs-string">'Flutter Demo'</span>,<br>      <span class="hljs-comment">// 主题配置</span><br>      theme: ThemeData(<br>			  colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown.shade400), <span class="hljs-comment">// 主颜色</span><br>        useMaterial3: <span class="hljs-keyword">true</span>,<br>      ),<br>      <span class="hljs-comment">// title: '计数器页面' ===&gt; 传入顶部导航栏标题</span><br>      home: <span class="hljs-keyword">const</span> MyHomePage(title: <span class="hljs-string">'计数器页面'</span>), <span class="hljs-comment">// 主页面</span><br>    );<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyHomePage</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatefulWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyHomePage({<span class="hljs-keyword">super</span>.key, <span class="hljs-keyword">required</span> <span class="hljs-keyword">this</span>.title});<br><br>  <span class="hljs-keyword">final</span> <span class="hljs-built_in">String</span> title;<br><br>  <span class="hljs-meta">@override</span><br>  State&lt;MyHomePage&gt; createState() =&gt; _MyHomePageState();<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyHomePageState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyHomePage</span>&gt; </span>{<br>  <span class="hljs-built_in">int</span> _counter = <span class="hljs-number">0</span>;<br>  <span class="hljs-comment">// 无返回值的函数</span><br>  <span class="hljs-comment">// 自增counter</span><br>  <span class="hljs-keyword">void</span> _incrementCounter() {<br>    setState(() {<br>      _counter++;<br>    });<br>  }<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Scaffold(<br>      appBar: AppBar(<br>        backgroundColor: Theme.of(context).colorScheme.inversePrimary,<br>        title: Text(widget.title), <span class="hljs-comment">// 顶部导航栏标题</span><br>      ),<br>      body: Center(<br>        child: Column(<br>          mainAxisAlignment: MainAxisAlignment.center,<br>          children: &lt;Widget&gt;[<br>            <span class="hljs-comment">// 页面文本</span><br>            <span class="hljs-keyword">const</span> Text(<br>              <span class="hljs-string">'你点击的按钮次数:'</span>,<br>              style: TextStyle(color: Colors.red, fontSize: <span class="hljs-number">16</span>),<br>            ),<br>            Text(<br>              <span class="hljs-string">'<span class="hljs-subst">$_counter</span>'</span>,<br>              style: Theme.of(context).textTheme.headlineMedium, <span class="hljs-comment">// 字体样式</span><br>            ),<br>          ],<br>        ),<br>      ),<br>			<span class="hljs-comment">// 右下角按钮</span><br>      floatingActionButton: FloatingActionButton(<br>        onPressed: _incrementCounter,<br>        tooltip: <span class="hljs-string">'Increment'</span>,<br>        child: <span class="hljs-keyword">const</span> Icon(Icons.add),<br>      ), <span class="hljs-comment">// This trailing comma makes auto-formatting nicer for build methods.</span><br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
-<!--
-# 制作猜数字界面
-
-# 制作电子木鱼界面 -->
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>flutter</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Flutter - Widget简介</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/widget%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<h1 id="状态-widget-statefulwidget">状态 widget StatefulWidget</h1>
@@ -2486,6 +2470,45 @@ setState()方法通知 Flutter 框架状态发生改变，Flutter
       <categories>
         <category>学习笔记</category>
         <category>flutter</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>初识Flutter</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%88%9D%E8%AF%86flutter/</url>
+    <content><![CDATA[<p><a href="../widget简介">widget简介</a></p>
+<h1 id="初识-flutter">初识 flutter</h1>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-comment">// 主入口 ==&gt; 即程序的入口</span><br><span class="hljs-keyword">void</span> main() {<br>  runApp(<span class="hljs-keyword">const</span> MyApp());<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-comment">// 整个是组件 Widget</span><br>  <span class="hljs-comment">// override 代表覆写父类build方法</span><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> MaterialApp(<br>      showPerformanceOverlay: <span class="hljs-keyword">false</span>, <span class="hljs-comment">// 是否开启布局网格辅助</span><br>      debugShowCheckedModeBanner: <span class="hljs-keyword">false</span>, <span class="hljs-comment">// 右上角debug是否开启</span><br>      title: <span class="hljs-string">'Flutter Demo'</span>,<br>      <span class="hljs-comment">// 主题配置</span><br>      theme: ThemeData(<br>			  colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown.shade400), <span class="hljs-comment">// 主颜色</span><br>        useMaterial3: <span class="hljs-keyword">true</span>,<br>      ),<br>      <span class="hljs-comment">// title: '计数器页面' ===&gt; 传入顶部导航栏标题</span><br>      home: <span class="hljs-keyword">const</span> MyHomePage(title: <span class="hljs-string">'计数器页面'</span>), <span class="hljs-comment">// 主页面</span><br>    );<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyHomePage</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatefulWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyHomePage({<span class="hljs-keyword">super</span>.key, <span class="hljs-keyword">required</span> <span class="hljs-keyword">this</span>.title});<br><br>  <span class="hljs-keyword">final</span> <span class="hljs-built_in">String</span> title;<br><br>  <span class="hljs-meta">@override</span><br>  State&lt;MyHomePage&gt; createState() =&gt; _MyHomePageState();<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyHomePageState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyHomePage</span>&gt; </span>{<br>  <span class="hljs-built_in">int</span> _counter = <span class="hljs-number">0</span>;<br>  <span class="hljs-comment">// 无返回值的函数</span><br>  <span class="hljs-comment">// 自增counter</span><br>  <span class="hljs-keyword">void</span> _incrementCounter() {<br>    setState(() {<br>      _counter++;<br>    });<br>  }<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Scaffold(<br>      appBar: AppBar(<br>        backgroundColor: Theme.of(context).colorScheme.inversePrimary,<br>        title: Text(widget.title), <span class="hljs-comment">// 顶部导航栏标题</span><br>      ),<br>      body: Center(<br>        child: Column(<br>          mainAxisAlignment: MainAxisAlignment.center,<br>          children: &lt;Widget&gt;[<br>            <span class="hljs-comment">// 页面文本</span><br>            <span class="hljs-keyword">const</span> Text(<br>              <span class="hljs-string">'你点击的按钮次数:'</span>,<br>              style: TextStyle(color: Colors.red, fontSize: <span class="hljs-number">16</span>),<br>            ),<br>            Text(<br>              <span class="hljs-string">'<span class="hljs-subst">$_counter</span>'</span>,<br>              style: Theme.of(context).textTheme.headlineMedium, <span class="hljs-comment">// 字体样式</span><br>            ),<br>          ],<br>        ),<br>      ),<br>			<span class="hljs-comment">// 右下角按钮</span><br>      floatingActionButton: FloatingActionButton(<br>        onPressed: _incrementCounter,<br>        tooltip: <span class="hljs-string">'Increment'</span>,<br>        child: <span class="hljs-keyword">const</span> Icon(Icons.add),<br>      ), <span class="hljs-comment">// This trailing comma makes auto-formatting nicer for build methods.</span><br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<!--
+# 制作猜数字界面
+
+# 制作电子木鱼界面 -->
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>flutter</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>学习Dart - Dart中的Mixins</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%AD%A6%E4%B9%A0Dart%20-%20Dart%E4%B8%AD%E7%9A%84Mixins/</url>
+    <content><![CDATA[<p><mark> 1. 作为mixins的类 不能继承其他类<br> 2. 作为mixins的类
+不能有构造函数<br> 3. 一个类可以mixins多个mixins类 </mark></p>
+<ul>
+<li>普通定义</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C();<br>  c.printA();<span class="hljs-comment">// A</span><br>  c.printB(); <span class="hljs-comment">// B</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>带构造函数</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{<br>  <span class="hljs-built_in">String</span> name = <span class="hljs-string">''</span>;<br>  <span class="hljs-built_in">int</span> age = <span class="hljs-number">0</span>;<br>  Person(<span class="hljs-keyword">this</span>.name, <span class="hljs-keyword">this</span>.age);<br>  <span class="hljs-keyword">void</span> printUserInfo() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'姓名:<span class="hljs-subst">${name}</span>，年龄:<span class="hljs-subst">${age}</span>'</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Person</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{<br>  C(<span class="hljs-keyword">super</span>.name, <span class="hljs-keyword">super</span>.age);<br>}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C(<span class="hljs-string">'张三'</span>, <span class="hljs-number">28</span>);<br>  c.printUserInfo(); <span class="hljs-comment">// 姓名:张三，年龄:28</span><br>  c.printA(); <span class="hljs-comment">// A</span><br>  c.printB(); <span class="hljs-comment">// B</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>mixin 类型（是其超类的子类型）</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{<br>  <span class="hljs-built_in">String</span> name = <span class="hljs-string">''</span>;<br>  <span class="hljs-built_in">int</span> age = <span class="hljs-number">0</span>;<br>  Person(<span class="hljs-keyword">this</span>.name, <span class="hljs-keyword">this</span>.age);<br>  <span class="hljs-keyword">void</span> printUserInfo() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'姓名:<span class="hljs-subst">${name}</span>，年龄:<span class="hljs-subst">${age}</span>'</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Person</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{<br>  C(<span class="hljs-keyword">super</span>.name, <span class="hljs-keyword">super</span>.age);<br>}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C(<span class="hljs-string">'张三'</span>, <span class="hljs-number">28</span>);<br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> C); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> A); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> B); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> Person); <span class="hljs-comment">// true</span><br>}<br><br></code></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>Dart</category>
       </categories>
   </entry>
   <entry>
@@ -2560,29 +2583,6 @@ setState()方法通知 Flutter 框架状态发生改变，Flutter
 <figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-comment">/// <span class="language-markdown">求0~100的和</span></span><br><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> sum = <span class="hljs-number">0</span>;<br>  <span class="hljs-keyword">void</span> recursive(<span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span>) {<br>    sum += <span class="hljs-built_in">num</span>;<br>    <span class="hljs-keyword">if</span> (<span class="hljs-built_in">num</span> == <span class="hljs-number">1</span>) <span class="hljs-keyword">return</span>;<br>    recursive(<span class="hljs-built_in">num</span> - <span class="hljs-number">1</span>);<br>  }<br><br>  recursive(<span class="hljs-number">100</span>);<br><br>  <span class="hljs-built_in">print</span>(sum); <span class="hljs-comment">// 5050</span><br>}<br><br></code></pre></td></tr></tbody></table></figure>
 <h1 id="闭包">闭包</h1>
 <figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> b = closure();<br>  b(); <span class="hljs-comment">// 124</span><br>  b(); <span class="hljs-comment">// 125</span><br>  b(); <span class="hljs-comment">// 126</span><br>}<br><br>closure() {<br>  <span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">123</span>;<br>  <span class="hljs-keyword">return</span> () {<br>    <span class="hljs-built_in">num</span>++;<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'num: <span class="hljs-subst">$num</span>'</span>);<br>  };<br>}<br></code></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>Dart</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>学习Dart - Dart中的Mixins</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%AD%A6%E4%B9%A0Dart%20-%20Dart%E4%B8%AD%E7%9A%84Mixins/</url>
-    <content><![CDATA[<p><mark> 1. 作为mixins的类 不能继承其他类<br> 2. 作为mixins的类
-不能有构造函数<br> 3. 一个类可以mixins多个mixins类 </mark></p>
-<ul>
-<li>普通定义</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C();<br>  c.printA();<span class="hljs-comment">// A</span><br>  c.printB(); <span class="hljs-comment">// B</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>带构造函数</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{<br>  <span class="hljs-built_in">String</span> name = <span class="hljs-string">''</span>;<br>  <span class="hljs-built_in">int</span> age = <span class="hljs-number">0</span>;<br>  Person(<span class="hljs-keyword">this</span>.name, <span class="hljs-keyword">this</span>.age);<br>  <span class="hljs-keyword">void</span> printUserInfo() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'姓名:<span class="hljs-subst">${name}</span>，年龄:<span class="hljs-subst">${age}</span>'</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Person</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{<br>  C(<span class="hljs-keyword">super</span>.name, <span class="hljs-keyword">super</span>.age);<br>}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C(<span class="hljs-string">'张三'</span>, <span class="hljs-number">28</span>);<br>  c.printUserInfo(); <span class="hljs-comment">// 姓名:张三，年龄:28</span><br>  c.printA(); <span class="hljs-comment">// A</span><br>  c.printB(); <span class="hljs-comment">// B</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>mixin 类型（是其超类的子类型）</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{<br>  <span class="hljs-built_in">String</span> name = <span class="hljs-string">''</span>;<br>  <span class="hljs-built_in">int</span> age = <span class="hljs-number">0</span>;<br>  Person(<span class="hljs-keyword">this</span>.name, <span class="hljs-keyword">this</span>.age);<br>  <span class="hljs-keyword">void</span> printUserInfo() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'姓名:<span class="hljs-subst">${name}</span>，年龄:<span class="hljs-subst">${age}</span>'</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> A {<br>  <span class="hljs-keyword">void</span> printA() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"A"</span>);<br>  }<br>}<br><br><span class="hljs-keyword">mixin</span> B {<br>  <span class="hljs-keyword">void</span> printB() {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">"B"</span>);<br>  }<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">C</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Person</span> <span class="hljs-title">with</span> <span class="hljs-title">A</span>, <span class="hljs-title">B</span> </span>{<br>  C(<span class="hljs-keyword">super</span>.name, <span class="hljs-keyword">super</span>.age);<br>}<br><br><span class="hljs-keyword">void</span> main() {<br>  C c = <span class="hljs-keyword">new</span> C(<span class="hljs-string">'张三'</span>, <span class="hljs-number">28</span>);<br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> C); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> A); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> B); <span class="hljs-comment">// true</span><br>  <span class="hljs-built_in">print</span>(c <span class="hljs-keyword">is</span> Person); <span class="hljs-comment">// true</span><br>}<br><br></code></pre></td></tr></tbody></table></figure>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -2985,6 +2985,132 @@ setState()方法通知 Flutter 框架状态发生改变，Flutter
       </categories>
   </entry>
   <entry>
+    <title>学习Dart - 数据类型</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%AD%A6%E4%B9%A0dart%20-%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-3-mixin"> 
+mixin</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-4-%E5%BC%82%E6%AD%A5%E6%94%AF%E6%8C%81"> 
+异步支持</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-5-stream"> 
+Stream</a></p>
+</blockquote>
+<h1 id="定义函数">定义函数</h1>
+<blockquote>
+<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-2-%E5%87%BD%E6%95%B0"> 
+函数</a></p>
+</blockquote>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-comment">// do sth</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart">main() {<br>	<span class="hljs-comment">// do sth</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><mark>
+两者区别：带<font color="red"><strong>void</strong></font>的没有返回值；不带的有返回值。
+</mark></p>
+<h1 id="变量">变量</h1>
+<blockquote>
+<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-1-%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E"> 
+变量声明</a></p>
+</blockquote>
+<ul>
+<li>var</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<h2 id="string-字符串">String 字符串</h2>
+<ul>
+<li>定义</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">String</span> str = <span class="hljs-string">'Hello Word'</span>;<br>  str = <span class="hljs-string">'哈哈哈'</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 哈哈哈</span><br><br>  str =  <span class="hljs-number">123</span>; <span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'String'.</span><br>  <span class="hljs-built_in">print</span>(str);<br><br>	str =<br>      <span class="hljs-string">"你好，世界"</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界</span><br><br>	str =<br>      <span class="hljs-string">'''你好，世界~</span><br><span class="hljs-string">      '你好，世界！</span><br><span class="hljs-string">      '你好，世界。</span><br><span class="hljs-string">      '''</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界~   你好，世界！    你好，世界。</span><br><br>  str = <span class="hljs-string">"""你好，世界~</span><br><span class="hljs-string">      '你好，世界！</span><br><span class="hljs-string">      '你好，世界。</span><br><span class="hljs-string">     """</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界~   你好，世界！</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>拼接</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">String</span> str = <span class="hljs-string">'123'</span>;<br>  <span class="hljs-built_in">String</span> str1 = <span class="hljs-string">'234'</span>;<br><br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"<span class="hljs-subst">$str</span> + <span class="hljs-subst">$str1</span>"</span>); <span class="hljs-comment">// 123 + 234</span><br><br>  <span class="hljs-built_in">print</span>(str + str1); <span class="hljs-comment">// 123234</span><br><br>  <span class="hljs-built_in">print</span>(str + <span class="hljs-string">' '</span> + str1); <span class="hljs-comment">// 123 234</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="numbers-数值">Numbers 数值</h2>
+<ul>
+<li>int 整数</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">123</span>;<br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 234</span><br><br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234.05</span>; <span class="hljs-comment">// Error: A value of type 'double' can't be assigned to a variable of type 'int'.</span><br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>double 浮点数</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">double</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">3.1415926</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 3.1415926</span><br><br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 234.0</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>运算</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> numberDemo() {<br>  <span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">24</span>;<br>  <span class="hljs-built_in">double</span> num1 = <span class="hljs-number">3.1415926</span>;<br><br>  <span class="hljs-keyword">var</span> addResult = <span class="hljs-built_in">num</span> + num1;<br>  <span class="hljs-built_in">print</span>(addResult); <span class="hljs-comment">// 27.1415926</span><br><br>  <span class="hljs-keyword">var</span> subResult = <span class="hljs-built_in">num</span> - num1;<br>  <span class="hljs-built_in">print</span>(subResult); <span class="hljs-comment">// 20.8584074</span><br><br>  <span class="hljs-keyword">var</span> multiResult = <span class="hljs-built_in">num</span> * num1;<br>  <span class="hljs-built_in">print</span>(multiResult); <span class="hljs-comment">// 75.39822240000001</span><br><br>  <span class="hljs-keyword">var</span> divResult = <span class="hljs-built_in">num</span> / num1;<br>  <span class="hljs-built_in">print</span>(divResult); <span class="hljs-comment">// 7.639437398725729</span><br><br>  <span class="hljs-keyword">var</span> remainderResult = <span class="hljs-built_in">num</span> % num1;<br>  <span class="hljs-built_in">print</span>(remainderResult); <span class="hljs-comment">// 2.0088517999999995</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="boolean-布尔">Boolean 布尔</h2>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">bool</span> flag = <span class="hljs-keyword">false</span>;<br>  <span class="hljs-built_in">print</span>(flag); <span class="hljs-comment">// false</span><br><br>  flag = <span class="hljs-keyword">true</span>;<br>  <span class="hljs-built_in">print</span>(flag); <span class="hljs-comment">// true</span><br><br>  flag = <span class="hljs-string">'123'</span>; <span class="hljs-comment">// Error: A value of type 'String' can't be assigned to a variable of type 'bool'.</span><br>  <span class="hljs-built_in">print</span>(flag);<br><br>  flag = <span class="hljs-number">123</span>; <span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'bool'.</span><br>  <span class="hljs-built_in">print</span>(flag);<br>}<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="list-数组">List 数组</h2>
+<ul>
+<li>常规定义</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> list = [<span class="hljs-number">1</span>, <span class="hljs-string">'23'</span>, <span class="hljs-keyword">true</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 23, true]</span><br>  <span class="hljs-built_in">print</span>(list.length); <span class="hljs-comment">// 3</span><br>  <span class="hljs-built_in">print</span>(list[<span class="hljs-number">0</span>]); <span class="hljs-comment">// 张三</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>指定类型</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-keyword">var</span> list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-string">'2'</span>, <span class="hljs-string">'3'</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3]</span><br><span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'String'.</span><br>  list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-number">2</span>, <span class="hljs-keyword">true</span>];<br><span class="hljs-comment">// Error: A value of type 'bool' can't be assigned to a variable of type 'String'.</span><br>  list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-string">'2'</span>, <span class="hljs-keyword">true</span>];<br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li><p>固定长度 <strong>Tips:固定长度后不会再次更改List长度</strong>
+</p><figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> list = <span class="hljs-built_in">List</span>&lt;<span class="hljs-built_in">int</span>&gt;.filled(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>);<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [3, 3]</span><br><br>  list[<span class="hljs-number">0</span>] = <span class="hljs-number">45</span>;<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [45, 3]</span><br><br>	list.add(<span class="hljs-number">54</span>);<br>	<span class="hljs-built_in">print</span>(list.length); <span class="hljs-comment">// 2</span><br>}<br></code></pre></td></tr></tbody></table></figure><p></p></li>
+<li><p>增加数据</p></li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-keyword">var</span> list = &lt;<span class="hljs-built_in">int</span>&gt;[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3]</span><br><br>  list.add(<span class="hljs-number">4</span>);<br>  list.add(<span class="hljs-number">5</span>);<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3, 4, 5]</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<h2 id="map-字典">Map 字典</h2>
+<ul>
+<li>常规定义</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> person = {<br>    <span class="hljs-string">"name"</span>: <span class="hljs-string">'张三'</span>,<br>    <span class="hljs-string">"age"</span>: <span class="hljs-number">18</span>,<br>    <span class="hljs-string">'job'</span>: [<span class="hljs-string">'IT'</span>, <span class="hljs-string">'外卖员'</span>]<br>  };<br>  <span class="hljs-built_in">print</span>(person); <span class="hljs-comment">// {name: 张三, age: 18, job: [IT, 外卖员]}</span><br>  <span class="hljs-built_in">print</span>(person[<span class="hljs-string">'name'</span>]); <span class="hljs-comment">// 张三</span><br>  <span class="hljs-built_in">print</span>(person[<span class="hljs-string">'job'</span>]); <span class="hljs-comment">// [IT, 外卖员]</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>new</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> person = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Map</span>();<br>  person[<span class="hljs-string">'name'</span>] = <span class="hljs-string">'李四'</span>;<br>  person[<span class="hljs-string">'work'</span>] = [<span class="hljs-string">'外卖员'</span>, <span class="hljs-string">'程序员'</span>, <span class="hljs-string">'插画师'</span>];<br>  person[<span class="hljs-string">'age'</span>] = <span class="hljs-string">'18'</span>;<br><br>  <span class="hljs-built_in">print</span>(person); <span class="hljs-comment">// {name: 李四, work: [外卖员, 程序员, 插画师], age: 18}</span><br>}<br></code></pre></td></tr></tbody></table></figure>
+<h1 id="常量永远不会更改的值">常量（永远不会更改的值）</h1>
+<ul>
+<li>const: : 声明的常量是在编译时确定的，永远不会改变</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"> <span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">const</span> PI = <span class="hljs-number">3.1415926</span>;<br>  <span class="hljs-built_in">print</span>(PI); <span class="hljs-comment">// 3.1415926</span><br><br>  PI = <span class="hljs-number">123456</span>; <span class="hljs-comment">// Error: Can't assign to the const variable 'PI'</span><br>  <span class="hljs-built_in">print</span>(PI);<br>}<br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>final: 声明的常量允许声明后在赋值，且赋值后亦不可更改</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">final</span> nowTime = <span class="hljs-built_in">DateTime</span>.now();<br><span class="hljs-built_in">print</span>(<span class="hljs-string">'now_time==&gt;<span class="hljs-subst">$nowTime</span>'</span>); <span class="hljs-comment">// 2024-07-23 16:22:42.806196</span><br><br><span class="hljs-keyword">const</span> currentTIme = <span class="hljs-built_in">DateTime</span>.now();<br><span class="hljs-built_in">print</span>(<span class="hljs-string">'currentTIme==&gt;<span class="hljs-subst">$currentTIme</span>'</span>);<br></code></pre></td></tr></tbody></table></figure>
+<p><mark> <a href="https://cloud.tencent.com/developer/article/1694695"> 
+const和final区别</a><br>
+<strong><font color="#a5a9d0">const</font></strong>：是一个编译时常量（用来定义常量）<br>
+<strong><font color="#a5a9d0">final</font></strong>：是在第一次使用时被初始化。（即修饰的变量，必须在定义时将其初始化，其值在初始化后不可改变；）
+</mark></p>
+<h1 id="判断数据类型">判断数据类型</h1>
+<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> str = <span class="hljs-number">1234</span>; <span class="hljs-comment">// 是int类型</span><br><br>  <span class="hljs-keyword">if</span> (str <span class="hljs-keyword">is</span> <span class="hljs-built_in">String</span>) {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是String类型'</span>);<br>  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (str <span class="hljs-keyword">is</span> <span class="hljs-built_in">int</span>) {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是int类型'</span>);<br>  } <span class="hljs-keyword">else</span> {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是其他类型'</span>);<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>Dart</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Js基础知识</title>
+    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h1 id="命名规则">1、命名规则</h1>
+<h1 id="数据类型">2、数据类型</h1>
+<blockquote>
+<p>[!note] 在 const
+中,基础数据类型是不可更改的;⽽引⽤数据类型是可以的</p>
+</blockquote>
+<ul>
+<li>基础数据类型：[[String]]、[[Number]]、Boolean、Null、Undefined、Symbols</li>
+<li>引用数据类型：[[Array]]、[[Object]]、function</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Array</title>
     <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Array/</url>
     <content><![CDATA[<ul>
@@ -3130,132 +3256,6 @@ True / False</li>
       <categories>
         <category>学习笔记</category>
         <category>JavaScript</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Js基础知识</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/javascript/Js%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<h1 id="命名规则">1、命名规则</h1>
-<h1 id="数据类型">2、数据类型</h1>
-<blockquote>
-<p>[!note] 在 const
-中,基础数据类型是不可更改的;⽽引⽤数据类型是可以的</p>
-</blockquote>
-<ul>
-<li>基础数据类型：[[String]]、[[Number]]、Boolean、Null、Undefined、Symbols</li>
-<li>引用数据类型：[[Array]]、[[Object]]、function</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习Dart - 数据类型</title>
-    <url>/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/%E5%AD%A6%E4%B9%A0dart%20-%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-3-mixin"> 
-mixin</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-4-%E5%BC%82%E6%AD%A5%E6%94%AF%E6%8C%81"> 
-异步支持</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-5-stream"> 
-Stream</a></p>
-</blockquote>
-<h1 id="定义函数">定义函数</h1>
-<blockquote>
-<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-2-%E5%87%BD%E6%95%B0"> 
-函数</a></p>
-</blockquote>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-comment">// do sth</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart">main() {<br>	<span class="hljs-comment">// do sth</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<p><mark>
-两者区别：带<font color="red"><strong>void</strong></font>的没有返回值；不带的有返回值。
-</mark></p>
-<h1 id="变量">变量</h1>
-<blockquote>
-<p><a href="https://book.flutterchina.club/chapter1/dart.html#_1-4-1-%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E"> 
-变量声明</a></p>
-</blockquote>
-<ul>
-<li>var</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
-<h2 id="string-字符串">String 字符串</h2>
-<ul>
-<li>定义</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">String</span> str = <span class="hljs-string">'Hello Word'</span>;<br>  str = <span class="hljs-string">'哈哈哈'</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 哈哈哈</span><br><br>  str =  <span class="hljs-number">123</span>; <span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'String'.</span><br>  <span class="hljs-built_in">print</span>(str);<br><br>	str =<br>      <span class="hljs-string">"你好，世界"</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界</span><br><br>	str =<br>      <span class="hljs-string">'''你好，世界~</span><br><span class="hljs-string">      '你好，世界！</span><br><span class="hljs-string">      '你好，世界。</span><br><span class="hljs-string">      '''</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界~   你好，世界！    你好，世界。</span><br><br>  str = <span class="hljs-string">"""你好，世界~</span><br><span class="hljs-string">      '你好，世界！</span><br><span class="hljs-string">      '你好，世界。</span><br><span class="hljs-string">     """</span>;<br>  <span class="hljs-built_in">print</span>(str); <span class="hljs-comment">// 你好，世界~   你好，世界！</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>拼接</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">String</span> str = <span class="hljs-string">'123'</span>;<br>  <span class="hljs-built_in">String</span> str1 = <span class="hljs-string">'234'</span>;<br><br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"<span class="hljs-subst">$str</span> + <span class="hljs-subst">$str1</span>"</span>); <span class="hljs-comment">// 123 + 234</span><br><br>  <span class="hljs-built_in">print</span>(str + str1); <span class="hljs-comment">// 123234</span><br><br>  <span class="hljs-built_in">print</span>(str + <span class="hljs-string">' '</span> + str1); <span class="hljs-comment">// 123 234</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="numbers-数值">Numbers 数值</h2>
-<ul>
-<li>int 整数</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">123</span>;<br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 234</span><br><br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234.05</span>; <span class="hljs-comment">// Error: A value of type 'double' can't be assigned to a variable of type 'int'.</span><br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>double 浮点数</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">double</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">3.1415926</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 3.1415926</span><br><br>  <span class="hljs-built_in">num</span> = <span class="hljs-number">234</span>;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-built_in">num</span>); <span class="hljs-comment">// 234.0</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>运算</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> numberDemo() {<br>  <span class="hljs-built_in">int</span> <span class="hljs-built_in">num</span> = <span class="hljs-number">24</span>;<br>  <span class="hljs-built_in">double</span> num1 = <span class="hljs-number">3.1415926</span>;<br><br>  <span class="hljs-keyword">var</span> addResult = <span class="hljs-built_in">num</span> + num1;<br>  <span class="hljs-built_in">print</span>(addResult); <span class="hljs-comment">// 27.1415926</span><br><br>  <span class="hljs-keyword">var</span> subResult = <span class="hljs-built_in">num</span> - num1;<br>  <span class="hljs-built_in">print</span>(subResult); <span class="hljs-comment">// 20.8584074</span><br><br>  <span class="hljs-keyword">var</span> multiResult = <span class="hljs-built_in">num</span> * num1;<br>  <span class="hljs-built_in">print</span>(multiResult); <span class="hljs-comment">// 75.39822240000001</span><br><br>  <span class="hljs-keyword">var</span> divResult = <span class="hljs-built_in">num</span> / num1;<br>  <span class="hljs-built_in">print</span>(divResult); <span class="hljs-comment">// 7.639437398725729</span><br><br>  <span class="hljs-keyword">var</span> remainderResult = <span class="hljs-built_in">num</span> % num1;<br>  <span class="hljs-built_in">print</span>(remainderResult); <span class="hljs-comment">// 2.0088517999999995</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="boolean-布尔">Boolean 布尔</h2>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-built_in">bool</span> flag = <span class="hljs-keyword">false</span>;<br>  <span class="hljs-built_in">print</span>(flag); <span class="hljs-comment">// false</span><br><br>  flag = <span class="hljs-keyword">true</span>;<br>  <span class="hljs-built_in">print</span>(flag); <span class="hljs-comment">// true</span><br><br>  flag = <span class="hljs-string">'123'</span>; <span class="hljs-comment">// Error: A value of type 'String' can't be assigned to a variable of type 'bool'.</span><br>  <span class="hljs-built_in">print</span>(flag);<br><br>  flag = <span class="hljs-number">123</span>; <span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'bool'.</span><br>  <span class="hljs-built_in">print</span>(flag);<br>}<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="list-数组">List 数组</h2>
-<ul>
-<li>常规定义</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> list = [<span class="hljs-number">1</span>, <span class="hljs-string">'23'</span>, <span class="hljs-keyword">true</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 23, true]</span><br>  <span class="hljs-built_in">print</span>(list.length); <span class="hljs-comment">// 3</span><br>  <span class="hljs-built_in">print</span>(list[<span class="hljs-number">0</span>]); <span class="hljs-comment">// 张三</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>指定类型</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-keyword">var</span> list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-string">'2'</span>, <span class="hljs-string">'3'</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3]</span><br><span class="hljs-comment">// Error: A value of type 'int' can't be assigned to a variable of type 'String'.</span><br>  list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-number">2</span>, <span class="hljs-keyword">true</span>];<br><span class="hljs-comment">// Error: A value of type 'bool' can't be assigned to a variable of type 'String'.</span><br>  list = &lt;<span class="hljs-built_in">String</span>&gt;[<span class="hljs-string">'1'</span>, <span class="hljs-string">'2'</span>, <span class="hljs-keyword">true</span>];<br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li><p>固定长度 <strong>Tips:固定长度后不会再次更改List长度</strong>
-</p><figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> list = <span class="hljs-built_in">List</span>&lt;<span class="hljs-built_in">int</span>&gt;.filled(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>);<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [3, 3]</span><br><br>  list[<span class="hljs-number">0</span>] = <span class="hljs-number">45</span>;<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [45, 3]</span><br><br>	list.add(<span class="hljs-number">54</span>);<br>	<span class="hljs-built_in">print</span>(list.length); <span class="hljs-comment">// 2</span><br>}<br></code></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>增加数据</p></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>	<span class="hljs-keyword">var</span> list = &lt;<span class="hljs-built_in">int</span>&gt;[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3]</span><br><br>  list.add(<span class="hljs-number">4</span>);<br>  list.add(<span class="hljs-number">5</span>);<br>  <span class="hljs-built_in">print</span>(list); <span class="hljs-comment">// [1, 2, 3, 4, 5]</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<h2 id="map-字典">Map 字典</h2>
-<ul>
-<li>常规定义</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> person = {<br>    <span class="hljs-string">"name"</span>: <span class="hljs-string">'张三'</span>,<br>    <span class="hljs-string">"age"</span>: <span class="hljs-number">18</span>,<br>    <span class="hljs-string">'job'</span>: [<span class="hljs-string">'IT'</span>, <span class="hljs-string">'外卖员'</span>]<br>  };<br>  <span class="hljs-built_in">print</span>(person); <span class="hljs-comment">// {name: 张三, age: 18, job: [IT, 外卖员]}</span><br>  <span class="hljs-built_in">print</span>(person[<span class="hljs-string">'name'</span>]); <span class="hljs-comment">// 张三</span><br>  <span class="hljs-built_in">print</span>(person[<span class="hljs-string">'job'</span>]); <span class="hljs-comment">// [IT, 外卖员]</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>new</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> person = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Map</span>();<br>  person[<span class="hljs-string">'name'</span>] = <span class="hljs-string">'李四'</span>;<br>  person[<span class="hljs-string">'work'</span>] = [<span class="hljs-string">'外卖员'</span>, <span class="hljs-string">'程序员'</span>, <span class="hljs-string">'插画师'</span>];<br>  person[<span class="hljs-string">'age'</span>] = <span class="hljs-string">'18'</span>;<br><br>  <span class="hljs-built_in">print</span>(person); <span class="hljs-comment">// {name: 李四, work: [外卖员, 程序员, 插画师], age: 18}</span><br>}<br></code></pre></td></tr></tbody></table></figure>
-<h1 id="常量永远不会更改的值">常量（永远不会更改的值）</h1>
-<ul>
-<li>const: : 声明的常量是在编译时确定的，永远不会改变</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"> <span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">const</span> PI = <span class="hljs-number">3.1415926</span>;<br>  <span class="hljs-built_in">print</span>(PI); <span class="hljs-comment">// 3.1415926</span><br><br>  PI = <span class="hljs-number">123456</span>; <span class="hljs-comment">// Error: Can't assign to the const variable 'PI'</span><br>  <span class="hljs-built_in">print</span>(PI);<br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>final: 声明的常量允许声明后在赋值，且赋值后亦不可更改</li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">final</span> nowTime = <span class="hljs-built_in">DateTime</span>.now();<br><span class="hljs-built_in">print</span>(<span class="hljs-string">'now_time==&gt;<span class="hljs-subst">$nowTime</span>'</span>); <span class="hljs-comment">// 2024-07-23 16:22:42.806196</span><br><br><span class="hljs-keyword">const</span> currentTIme = <span class="hljs-built_in">DateTime</span>.now();<br><span class="hljs-built_in">print</span>(<span class="hljs-string">'currentTIme==&gt;<span class="hljs-subst">$currentTIme</span>'</span>);<br></code></pre></td></tr></tbody></table></figure>
-<p><mark> <a href="https://cloud.tencent.com/developer/article/1694695"> 
-const和final区别</a><br>
-<strong><font color="#a5a9d0">const</font></strong>：是一个编译时常量（用来定义常量）<br>
-<strong><font color="#a5a9d0">final</font></strong>：是在第一次使用时被初始化。（即修饰的变量，必须在定义时将其初始化，其值在初始化后不可改变；）
-</mark></p>
-<h1 id="判断数据类型">判断数据类型</h1>
-<figure class="highlight dart"><table><tbody><tr><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">void</span> main() {<br>  <span class="hljs-keyword">var</span> str = <span class="hljs-number">1234</span>; <span class="hljs-comment">// 是int类型</span><br><br>  <span class="hljs-keyword">if</span> (str <span class="hljs-keyword">is</span> <span class="hljs-built_in">String</span>) {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是String类型'</span>);<br>  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (str <span class="hljs-keyword">is</span> <span class="hljs-built_in">int</span>) {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是int类型'</span>);<br>  } <span class="hljs-keyword">else</span> {<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">'是其他类型'</span>);<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>Dart</category>
       </categories>
   </entry>
   <entry>
@@ -5236,6 +5236,196 @@ $50\% * (2+3+2) / 3 +30\% * (1+1+2) + 20\% * (3+2+2) / 3= 2.03$
       </categories>
   </entry>
   <entry>
+    <title>单代号网络图</title>
+    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
+    <content><![CDATA[<h1 id="单代号网络图">单代号网络图</h1>
+<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>单代号网络图又称前导图法(PDM)
+/
+紧前关系绘图法</strong>。是以一个正方形或者长方形表达活动的一种网络图绘制方法</mark>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png"></p>
+<ul>
+<li>F-S(FInish-Start)：一个活动结束另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png">
+<ul>
+<li><font color="#2F8EF4">eg: 吃完饭才能洗碗 /
+写完代码才能部署项目</font></li>
+</ul></li>
+<li>F-F：一个活动结束另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png">
+<ul>
+<li><font color="#2F8EF4">eg: 婚礼仪式结束，婚礼才算结束</font></li>
+</ul></li>
+<li>S-S：一个活动开始另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
+<ul>
+<li><font color="#2F8EF4">eg:
+运动会比赛：枪响声开始，裁判才开始计时</font></li>
+</ul></li>
+<li>S-F：一个活动开始另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
+<ul>
+<li><font color="#2F8EF4">eg: 保安 B 交班了，保安 A 才能下班</font></li>
+</ul></li>
+<li>紧前活动 A、B、C 都完成才能进行活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png"></li>
+<li>紧后活动 A、B、C 都有一个共同的紧前活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png"></li>
+</ul>
+<h3 id="案例">案例</h3>
+<div>
+<ol type="1">
+<li>在工程网络计划中，工作M的最早开始时间是第16天，其持续时间是5天。该工作有三项紧后工作，他们的最早开始时间分别为第25天、第27天和第30天，最迟开始时间分别为第28天、第29天和第30天。则工作M的总时差为<font color="#DF2A3F">(C)</font>天&gt;?
+<div>
+A）5
+</div>
+<div>
+B）6
+</div>
+<div>
+C）7
+</div>
+<div>
+D）9
+</div>
+<div>
+解析：
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png"></li>
+</ol>
+<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由六标时网络图绘制可知最早开始时间是第16天，持续时间是5天，最早的完成时间为21天，最迟开工为28天。<br>  根据逆推法可得知：<br>  最晚的开始时间为28天<br>  28-21 = 7<br>  所以，最晚开始持续时间为7天<br>  最晚开始时间 = 16+7 = 23<br>  再带入总时差计算公式：总时差 = LS-ES = LF-EF<br>  总时差 = 23-16 = 28-21 = 7<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+<div>
+<ol start="2" type="1">
+<li>某工程建设项目中各工序历时如下图所示，则本项目最快完成时间为<font color="#DF2A3F">(13)周</font>。同时，通过<font color="#DF2A3F">(1、5)</font>可以缩短项目工期。
+<div>
+① 压缩B工序时间
+</div>
+<div>
+② 压缩H工序时间
+</div>
+<div>
+③ 同时开展A工序和H工序
+</div>
+<div>
+④ 压缩F工序时间
+</div>
+<div>
+⑤ 压缩G工序时间
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png">
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  <span class="hljs-params">#</span> 算关键路径，即算最快完成时间<br>  <span class="hljs-params">##</span> 由上图单代号网络图可先算出路径和总用时时间<br>  ABHI  12<br>  ABEGI 13<br>  ABDFJ 12<br>  ACFJ  11<br>  <span class="hljs-params">##</span> 由此可得最快完成时间为13周 <br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure></li>
+</ol>
+</div>
+<div>
+<ol start="3" type="1">
+<li>下图某个工程单代号网络图中，活动B的总浮动时间为<font color="#DF2A3F">(D)</font>天。
+<div>
+A）1
+</div>
+<div>
+B）2
+</div>
+<div>
+C）3
+</div>
+<div>
+D）4
+</div>
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png"></li>
+</ol>
+</div>
+<div>
+<ol start="4" type="1">
+<li>某工程由8个活动组成，其各活动情况如下表所示，该工厂关键路径为<font color="#DF2A3F">(B)</font>。
+<div>
+A）ABCEGI
+</div>
+<div>
+B）ABCFHI
+</div>
+<div>
+C）ABDHI
+</div>
+<div>
+D）ABDI
+</div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">活动</th>
+<th style="text-align: center;">紧前活动</th>
+<th style="text-align: center;">所需天数</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">G</td>
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">H</td>
+<td style="text-align: center;">FG</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">HD</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png"></p>
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  ABCEGHI: 23<br>  ABDI: 14<br>  ABCFHI: 23<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+<div>
+5.下面某项目规划的进度网络图（单位：周），在实际实施过程中，活动B-E比计划延迟2周，活动J-K比计划提前了3周，则该项目的关键路径是<font color="#DF2A3F">(A-B-E-H-K)</font>。，总工期是<font color="#DF2A3F">(15)</font>周。
+<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png"><br>
+
+<div>
+解析：
+</div>
+<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由题目可知，B-E的工期实际是6周，而J-K实际工期是2周。<br>  ABEHK: 3+6+2+4 = 15<br>  ABFK: 3+6+3 = 12<br>  ACFK: 4+2+3 = 9<br>  ADFK: 2+3+3 = 8<br>  ADGIJK: 4+3+2+2 = 11<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
+</div>
+]]></content>
+      <categories>
+        <category>软考</category>
+        <category>计算题</category>
+        <category>进度类</category>
+      </categories>
+  </entry>
+  <entry>
     <title>双代号时标网络图</title>
     <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8F%8C%E4%BB%A3%E5%8F%B7%E6%97%B6%E6%A0%87%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
     <content><![CDATA[<h1 id="双代号时标网络图">双代号时标网络图</h1>
@@ -5473,196 +5663,6 @@ D）20
 </div></li>
 </ol>
 <p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5-rc-upload-1711501510820-6.png"></p>
-</div>
-]]></content>
-      <categories>
-        <category>软考</category>
-        <category>计算题</category>
-        <category>进度类</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>单代号网络图</title>
-    <url>/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%88/%E8%AE%A1%E7%AE%97%E9%A2%98/%E8%BF%9B%E5%BA%A6%E7%B1%BB/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE/</url>
-    <content><![CDATA[<h1 id="单代号网络图">单代号网络图</h1>
-<p><mark style="background-color: #f9f2f4;color: #c7254e;"><strong>单代号网络图又称前导图法(PDM)
-/
-紧前关系绘图法</strong>。是以一个正方形或者长方形表达活动的一种网络图绘制方法</mark>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE-rc-upload-1710975620561-4.png"></p>
-<ul>
-<li>F-S(FInish-Start)：一个活动结束另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-S.png">
-<ul>
-<li><font color="#2F8EF4">eg: 吃完饭才能洗碗 /
-写完代码才能部署项目</font></li>
-</ul></li>
-<li>F-F：一个活动结束另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/F-F.png">
-<ul>
-<li><font color="#2F8EF4">eg: 婚礼仪式结束，婚礼才算结束</font></li>
-</ul></li>
-<li>S-S：一个活动开始另一个活动才能开始 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
-<ul>
-<li><font color="#2F8EF4">eg:
-运动会比赛：枪响声开始，裁判才开始计时</font></li>
-</ul></li>
-<li>S-F：一个活动开始另一个活动才能结束 <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/S-S.png">
-<ul>
-<li><font color="#2F8EF4">eg: 保安 B 交班了，保安 A 才能下班</font></li>
-</ul></li>
-<li>紧前活动 A、B、C 都完成才能进行活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%AE%8C%E6%88%90%E6%89%8D%E8%83%BD%E8%BF%9B%E8%A1%8C%E6%B4%BB%E5%8A%A8.png"></li>
-<li>紧后活动 A、B、C 都有一个共同的紧前活动 D <img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%9C%89%E5%85%B1%E5%90%8C%E7%9A%84%E7%B4%A7%E5%89%8D%E6%B4%BB%E5%8A%A8.png"></li>
-</ul>
-<h3 id="案例">案例</h3>
-<div>
-<ol type="1">
-<li>在工程网络计划中，工作M的最早开始时间是第16天，其持续时间是5天。该工作有三项紧后工作，他们的最早开始时间分别为第25天、第27天和第30天，最迟开始时间分别为第28天、第29天和第30天。则工作M的总时差为<font color="#DF2A3F">(C)</font>天&gt;?
-<div>
-A）5
-</div>
-<div>
-B）6
-</div>
-<div>
-C）7
-</div>
-<div>
-D）9
-</div>
-<div>
-解析：
-</div>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE1.png"></li>
-</ol>
-<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由六标时网络图绘制可知最早开始时间是第16天，持续时间是5天，最早的完成时间为21天，最迟开工为28天。<br>  根据逆推法可得知：<br>  最晚的开始时间为28天<br>  28-21 = 7<br>  所以，最晚开始持续时间为7天<br>  最晚开始时间 = 16+7 = 23<br>  再带入总时差计算公式：总时差 = LS-ES = LF-EF<br>  总时差 = 23-16 = 28-21 = 7<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
-</div>
-<div>
-<ol start="2" type="1">
-<li>某工程建设项目中各工序历时如下图所示，则本项目最快完成时间为<font color="#DF2A3F">(13)周</font>。同时，通过<font color="#DF2A3F">(1、5)</font>可以缩短项目工期。
-<div>
-① 压缩B工序时间
-</div>
-<div>
-② 压缩H工序时间
-</div>
-<div>
-③ 同时开展A工序和H工序
-</div>
-<div>
-④ 压缩F工序时间
-</div>
-<div>
-⑤ 压缩G工序时间
-</div>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE2.png">
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  <span class="hljs-params">#</span> 算关键路径，即算最快完成时间<br>  <span class="hljs-params">##</span> 由上图单代号网络图可先算出路径和总用时时间<br>  ABHI  12<br>  ABEGI 13<br>  ABDFJ 12<br>  ACFJ  11<br>  <span class="hljs-params">##</span> 由此可得最快完成时间为13周 <br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure></li>
-</ol>
-</div>
-<div>
-<ol start="3" type="1">
-<li>下图某个工程单代号网络图中，活动B的总浮动时间为<font color="#DF2A3F">(D)</font>天。
-<div>
-A）1
-</div>
-<div>
-B）2
-</div>
-<div>
-C）3
-</div>
-<div>
-D）4
-</div>
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%85%AD%E6%A0%87%E6%97%B6%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE6.png"></li>
-</ol>
-</div>
-<div>
-<ol start="4" type="1">
-<li>某工程由8个活动组成，其各活动情况如下表所示，该工厂关键路径为<font color="#DF2A3F">(B)</font>。
-<div>
-A）ABCEGI
-</div>
-<div>
-B）ABCFHI
-</div>
-<div>
-C）ABDHI
-</div>
-<div>
-D）ABDI
-</div>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;">活动</th>
-<th style="text-align: center;">紧前活动</th>
-<th style="text-align: center;">所需天数</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">A</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">3</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">A</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">D</td>
-<td style="text-align: center;">B</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">E</td>
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">F</td>
-<td style="text-align: center;">C</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">G</td>
-<td style="text-align: center;">E</td>
-<td style="text-align: center;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">H</td>
-<td style="text-align: center;">FG</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">I</td>
-<td style="text-align: center;">HD</td>
-<td style="text-align: center;">2</td>
-</tr>
-</tbody>
-</table></li>
-</ol>
-<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE3.png"></p>
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  ABCEGHI: 23<br>  ABDI: 14<br>  ABCFHI: 23<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
-</div>
-<div>
-5.下面某项目规划的进度网络图（单位：周），在实际实施过程中，活动B-E比计划延迟2周，活动J-K比计划提前了3周，则该项目的关键路径是<font color="#DF2A3F">(A-B-E-H-K)</font>。，总工期是<font color="#DF2A3F">(15)</font>周。
-<img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%8D%95%E4%BB%A3%E5%8F%B7%E7%BD%91%E7%BB%9C%E5%9B%BE%E9%A2%98%E7%9B%AE5.png"><br>
-
-<div>
-解析：
-</div>
-<figure class="highlight latex"><table><tbody><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br>  由题目可知，B-E的工期实际是6周，而J-K实际工期是2周。<br>  ABEHK: 3+6+2+4 = 15<br>  ABFK: 3+6+3 = 12<br>  ACFK: 4+2+3 = 9<br>  ADFK: 2+3+3 = 8<br>  ADGIJK: 4+3+2+2 = 11<br><span class="hljs-built_in">$</span><span class="hljs-built_in">$</span><br></code></pre></td></tr></tbody></table></figure>
 </div>
 ]]></content>
       <categories>
