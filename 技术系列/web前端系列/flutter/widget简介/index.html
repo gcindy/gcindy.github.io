@@ -16,18 +16,18 @@
   <meta name="author" content="苏小妍">
   <meta name="keywords" content="">
   
-    <meta name="description" content="状态 widget 模板 (快捷键 stful) 123456789101112131415import &#39;package:flutter&#x2F;material.dart&#39;;class MyWidget extends StatefulWidget {  const MyWidget({super.key});  @override  State&lt;MyWidget&gt; createState">
+    <meta name="description" content="状态 widget StatefulWidget 模板 (快捷键 stful) 123456789101112131415import &#39;package:flutter&#x2F;material.dart&#39;;class MyWidget extends StatefulWidget {  const MyWidget({super.key});  @override  State&lt;MyWidget&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Flutter - Widget简介">
 <meta property="og:url" content="https://dev.gongyibai.cn/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/widget%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="代码笔墨">
-<meta property="og:description" content="状态 widget 模板 (快捷键 stful) 123456789101112131415import &#39;package:flutter&#x2F;material.dart&#39;;class MyWidget extends StatefulWidget {  const MyWidget({super.key});  @override  State&lt;MyWidget&gt; createState">
+<meta property="og:description" content="状态 widget StatefulWidget 模板 (快捷键 stful) 123456789101112131415import &#39;package:flutter&#x2F;material.dart&#39;;class MyWidget extends StatefulWidget {  const MyWidget({super.key});  @override  State&lt;MyWidget&amp;">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fwidget-01.png">
 <meta property="og:image" content="https://book.flutterchina.club/assets/img/2-5.a59bef97.jpg">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter/%E8%8E%B7%E5%8F%96state1%2001.gif">
 <meta property="article:published_time" content="2024-07-29T08:28:00.000Z">
-<meta property="article:modified_time" content="2024-07-29T13:05:40.243Z">
+<meta property="article:modified_time" content="2024-08-08T02:53:25.369Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fwidget-01.png">
@@ -246,7 +246,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          846 字
+          654 字
         
       </span>
     
@@ -257,7 +257,7 @@
         
         
         
-          8 分钟
+          6 分钟
         
       </span>
     
@@ -307,7 +307,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年7月29日 晚上
+                    本文最后更新于 2024年8月8日 上午
                   
                 
               </p>
@@ -315,7 +315,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="状态-widget">状态 widget</h1>
+                <h1 id="状态-widget-statefulwidget">状态 widget StatefulWidget</h1>
 <h2 id="模板-快捷键-stful">模板 (快捷键 stful)</h2>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatefulWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  State&lt;MyWidget&gt; createState() =&gt; _MyWidgetState();<br>}<br><span class="hljs-comment">// MyWidget的状态类</span><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> Placeholder();<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
 <h2 id="示例">示例</h2>
@@ -323,7 +323,8 @@
 <video width="100%" controls="controls" src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter/widget%20-%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.mp4">
 您的浏览器不支持播放该视频!
 </video>
-<h1 id="无状态-widget">无状态 widget</h1>
+<h1 id="无状态-widget-statelesswidget">无状态 widget
+StatelessWidget</h1>
 <h2 id="模板-快捷键-stless">模板 (快捷键 stless)</h2>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> Placeholder();<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
 <h2 id="示例-1">示例</h2>
@@ -343,43 +344,11 @@ setState()方法通知 Flutter 框架状态发生改变，Flutter
 <li><p>属性</p></li>
 </ul>
 <h2 id="生命周期">生命周期</h2>
-<p><img src="https://book.flutterchina.club/assets/img/2-5.a59bef97.jpg" srcset="/img/loading.gif" lazyload></p>
-<ul>
-<li>初始化: <strong>initState()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span> <span class="hljs-comment">// override =&gt; 覆盖父类方法</span><br><span class="hljs-keyword">void</span> initState() {<br>  <span class="hljs-keyword">super</span>.initState();<br>  <span class="hljs-comment">//初始化状态</span><br>  _counter = widget.initValue;<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"initState"</span>);<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>页面加载: <strong>build()</strong>
-<ul>
-<li>在调用 initState()之后被调用。</li>
-<li>在调用 didUpdateWidget()之后被调用。</li>
-<li>在调用 setState()之后被调用。</li>
-<li>在调用 didChangeDependencies()之后被调用。</li>
-<li>在 State 对象从树中一个位置移除后（会调用
-deactivate）又重新插入到树的其他位置之后被调用。</li>
-</ul></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span><br>Widget build(BuildContext context) {<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"build"</span>);<br>  <span class="hljs-keyword">return</span> Scaffold(<br>    body: Center(<br>      child: TextButton(<br>        child: Text(<span class="hljs-string">'<span class="hljs-subst">$_counter</span>'</span>),<br>        <span class="hljs-comment">//点击后计数器自增</span><br>        onPressed: () =&gt; setState(<br>          () =&gt; ++_counter,<br>        ),<br>      ),<br>    ),<br>  );<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>热重载: <strong>reassemble()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span><br><span class="hljs-keyword">void</span> reassemble() {<br>  <span class="hljs-keyword">super</span>.reassemble();<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"reassemble"</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>更新 widget: <strong>didUpdateWidget()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span><br> <span class="hljs-keyword">void</span> didUpdateWidget(CounterWidget oldWidget) {<br>   <span class="hljs-keyword">super</span>.didUpdateWidget(oldWidget);<br>   <span class="hljs-built_in">print</span>(<span class="hljs-string">"didUpdateWidget "</span>);<br> }<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>更新 State 依赖: <strong>didChangeDependencies()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span><br><span class="hljs-keyword">void</span> didChangeDependencies() {<br>  <span class="hljs-keyword">super</span>.didChangeDependencies();<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"didChangeDependencies"</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>删除 State 并重新插入 : <strong>deactivate()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br><span class="hljs-meta">@override</span><br><span class="hljs-keyword">void</span> deactivate() {<br>  <span class="hljs-keyword">super</span>.deactivate();<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"deactivate"</span>);<br>}<br><br></code></pre></td></tr></tbody></table></figure>
-<ul>
-<li>当 State 对象从树中被永久移除时调用: <strong>dispose()</strong></li>
-</ul>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-meta">@override</span><br><span class="hljs-keyword">void</span> dispose() {<br>  <span class="hljs-keyword">super</span>.dispose();<br>  <span class="hljs-built_in">print</span>(<span class="hljs-string">"dispose"</span>);<br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><a href="../flutter生命周期">flutter 生命周期</a></p>
+<figure>
+<img src="https://book.flutterchina.club/assets/img/2-5.a59bef97.jpg" srcset="/img/loading.gif" lazyload alt="flutter生命周期">
+<figcaption aria-hidden="true">flutter生命周期</figcaption>
+</figure>
 <h2 id="获取-state">获取 State</h2>
 <ul>
 <li>通过 Context 获取</li>
@@ -454,7 +423,7 @@ deactivate）又重新插入到树的其他位置之后被调用。</li>
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年7月29日</div>
+          <div>2024年8月8日</div>
         </div>
       
       
