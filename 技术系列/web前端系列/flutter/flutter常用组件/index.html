@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FDefaultTextStyle.png">
 <meta property="article:published_time" content="2024-08-06T02:04:00.000Z">
-<meta property="article:modified_time" content="2024-08-07T10:09:27.874Z">
+<meta property="article:modified_time" content="2024-08-09T05:05:58.440Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FTestSpan.png">
@@ -245,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.3k 字
+          2.4k 字
         
       </span>
     
@@ -256,7 +256,7 @@
         
         
         
-          19 分钟
+          21 分钟
         
       </span>
     
@@ -306,7 +306,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年8月7日 晚上
+                    本文最后更新于 2024年8月9日 下午
                   
                 
               </p>
@@ -463,6 +463,8 @@ LinearProgressIndicator &amp; CircularProgressIndicator</h1>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyProgressWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatefulWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyProgressWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  State&lt;MyProgressWidget&gt; createState() =&gt; _MyProgressWidgetState();<br>}<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_MyProgressWidgetState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">State</span>&lt;<span class="hljs-title">MyProgressWidget</span>&gt; </span>{<br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Scaffold(<br>        appBar: AppBar(title: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"Switch"</span>)),<br>        body: <span class="hljs-keyword">const</span> Column(<br>          children: &lt;Widget&gt;[<br>            CircularProgressIndicator(<br>              backgroundColor: Colors.grey,<br>              valueColor: AlwaysStoppedAnimation(Colors.blue),<br>            )<br>          ],<br>        ));<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Dart">CircularProgressIndicator(<br>	backgroundColor: Colors.grey,<br>	valueColor: AlwaysStoppedAnimation(Colors.blue),<br>	value: <span class="hljs-number">.5</span>,<br>)<br></code></pre></td></tr></tbody></table></figure>
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs Dart">SizedBox(<br>	width: <span class="hljs-number">20</span>,<br>	height: <span class="hljs-number">20</span>,<br>	child: CircularProgressIndicator(<br>		backgroundColor: Colors.grey,<br>		valueColor: AlwaysStoppedAnimation(Colors.blue),<br>		value: <span class="hljs-number">.5</span>,<br>	),<br>)<br></code></pre></td></tr></tbody></table></figure>
+<h1 id="容器组件-container">容器组件 Container</h1>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyContainerWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyContainerWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Column(<br>      children: [<br>        <span class="hljs-comment">// 容器</span><br>        Container(<br>          width: <span class="hljs-number">300</span>,<br>          height: <span class="hljs-number">300</span>,<br>          margin: <span class="hljs-keyword">const</span> EdgeInsets.all(<span class="hljs-number">10</span>),<br>          padding: <span class="hljs-keyword">const</span> EdgeInsets.only(top: <span class="hljs-number">20</span>, left: <span class="hljs-number">12</span>),<br>          <span class="hljs-comment">// 装饰容器</span><br>          decoration: BoxDecoration(<br>              color: Colors.green.shade200, <span class="hljs-comment">// 背景色</span><br>              border: Border.all(width: <span class="hljs-number">10</span>, color: Colors.blue), <span class="hljs-comment">// 边框</span><br>              borderRadius: BorderRadius.circular(<span class="hljs-number">20</span>), <span class="hljs-comment">// 圆角</span><br>              <span class="hljs-comment">// 阴影</span><br>              boxShadow: <span class="hljs-keyword">const</span> [<br>                BoxShadow(<br>                  color: Colors.black45, <span class="hljs-comment">// 阴影颜色</span><br>                  offset: Offset(<span class="hljs-number">3</span>, <span class="hljs-number">3</span>), <span class="hljs-comment">// 阴影扩散z</span><br>                  blurRadius: <span class="hljs-number">10</span>, <span class="hljs-comment">// 阴影模糊度</span><br>                ),<br>              ],<br>              <span class="hljs-comment">// 背景图</span><br>              image: <span class="hljs-keyword">const</span> DecorationImage(<br>                  image: NetworkImage(<br>                      <span class="hljs-string">'https://images.pexels.com/photos/27568134/pexels-photo-27568134.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2'</span>))),<br>          foregroundDecoration:<br>              BoxDecoration(color: Colors.white.withOpacity(<span class="hljs-number">0.3</span>)), <span class="hljs-comment">// 前景装饰</span><br>          transform: Matrix4.rotationZ(<span class="hljs-number">0.2</span>), <span class="hljs-comment">// 转换</span><br>          <span class="hljs-comment">// 约束</span><br>          <span class="hljs-comment">// constraints: const BoxConstraints(</span><br>          <span class="hljs-comment">//   minHeight: 100,</span><br>          <span class="hljs-comment">//   maxHeight: 600,</span><br>          <span class="hljs-comment">// ),</span><br>          constraints: <span class="hljs-keyword">const</span> BoxConstraints.expand(height: <span class="hljs-number">100</span>),<br>          child: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">'hahah'</span>),<br>        ),<br>        Container(<br>          color: Colors.amber.shade900,<br>          width: <span class="hljs-number">300</span>,<br>          height: <span class="hljs-number">200</span>,<br>          child: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">'111'</span>),<br>        ),<br>      ],<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
 
                 
               </div>
@@ -527,7 +529,7 @@ LinearProgressIndicator &amp; CircularProgressIndicator</h1>
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年8月7日</div>
+          <div>2024年8月9日</div>
         </div>
       
       
@@ -558,9 +560,9 @@ LinearProgressIndicator &amp; CircularProgressIndicator</h1>
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B62/" title="Flutter常用组件 - 布局类组件">
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B64/" title="Flutter常用组件 - 可滚动组件">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Flutter常用组件 - 布局类组件</span>
+                        <span class="hidden-mobile">Flutter常用组件 - 可滚动组件</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -568,8 +570,8 @@ LinearProgressIndicator &amp; CircularProgressIndicator</h1>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B63/" title="Flutter常用组件 - 容器类组件">
-                        <span class="hidden-mobile">Flutter常用组件 - 容器类组件</span>
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B65/" title="Flutter常用组件 - 功能型组件">
+                        <span class="hidden-mobile">Flutter常用组件 - 功能型组件</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
