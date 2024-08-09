@@ -25,8 +25,10 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Frow.png">
 <meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fcolumn.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FExpanded.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fspacer.png">
 <meta property="article:published_time" content="2024-08-06T02:04:00.000Z">
-<meta property="article:modified_time" content="2024-08-09T03:07:34.500Z">
+<meta property="article:modified_time" content="2024-08-09T03:41:12.673Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Frow.png">
@@ -245,7 +247,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          138 字
+          234 字
         
       </span>
     
@@ -306,7 +308,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年8月9日 上午
+                    本文最后更新于 2024年8月9日 中午
                   
                 
               </p>
@@ -322,7 +324,10 @@
 <figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyColumnWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyColumnWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Container(<br>      color: Colors.amber,<br>      child: <span class="hljs-keyword">const</span> Column(<br>        mainAxisAlignment: MainAxisAlignment.end, <span class="hljs-comment">// 主轴对齐方式</span><br>        crossAxisAlignment: CrossAxisAlignment.start, <span class="hljs-comment">// 交叉轴对齐方式</span><br>        mainAxisSize: MainAxisSize.min, <span class="hljs-comment">// 主轴尺寸</span><br>        children: [<br>          FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">200</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">300</span>,<br>          ),<br>          Text(<span class="hljs-string">'哈哈哈'</span>)<br>        ],<br>      ),<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
 <p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fcolumn.png" srcset="/img/loading.gif" lazyload></p>
 <h1 id="弹性布局-flex">弹性布局 Flex</h1>
-<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyFlexWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyFlexWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Container(<br>      color: Colors.grey,<br>      child: Row(<br>        children: [<br>          <span class="hljs-comment">// Expanded 把包裹的元素撑开</span><br>          <span class="hljs-comment">// Expanded 只能在Row、Column、Flex中使用</span><br>          Expanded(<br>              flex: <span class="hljs-number">1</span>,<br>              child: Container(<br>                width: <span class="hljs-number">100</span>,<br>                height: <span class="hljs-number">100</span>,<br>                color: Colors.amber,<br>              )),<br>          <span class="hljs-keyword">const</span> Expanded(<br>              flex: <span class="hljs-number">3</span>,<br>              child: FlutterLogo(<br>                size: <span class="hljs-number">100</span>,<br>              ))<br>        ],<br>      ),<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2FExpanded.png" srcset="/img/loading.gif" lazyload></p>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyFlexWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyFlexWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Container(<br>      color: Colors.grey,<br>      child: Row(<br>        children: [<br>          Container(<br>            width: <span class="hljs-number">100</span>,<br>            height: <span class="hljs-number">100</span>,<br>            color: Colors.amber,<br>          ),<br>          <span class="hljs-keyword">const</span> Spacer(), <span class="hljs-comment">// 留白撑开,适合用在标题按钮</span><br>          <span class="hljs-keyword">const</span> FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          )<br>        ],<br>      ),<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fspacer.png" srcset="/img/loading.gif" lazyload></p>
 <h1 id="流式布局">流式布局</h1>
 <ul>
 <li>Wrap</li>
@@ -438,9 +443,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/" title="Flutter常用组件 - 基础组件">
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" title="Flutter">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Flutter常用组件 - 基础组件</span>
+                        <span class="hidden-mobile">Flutter</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -448,8 +453,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B63/" title="Flutter常用组件 - 容器类组件">
-                        <span class="hidden-mobile">Flutter常用组件 - 容器类组件</span>
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/" title="Flutter常用组件 - 基础组件">
+                        <span class="hidden-mobile">Flutter常用组件 - 基础组件</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
