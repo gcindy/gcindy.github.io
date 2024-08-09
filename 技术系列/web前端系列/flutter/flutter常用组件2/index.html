@@ -16,15 +16,20 @@
   <meta name="author" content="苏小妍">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
+    <meta name="description" content="线性布局 Row 1234567891011121314151617181920212223242526272829import &#39;package:flutter&#x2F;material.dart&#39;;class MyRowContainerWidget extends StatelessWidget {  const MyRowContainerWidget({super.key});  @overri">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Flutter常用组件 - 布局类组件">
 <meta property="og:url" content="https://dev.gongyibai.cn/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B62/index.html">
 <meta property="og:site_name" content="代码笔墨">
+<meta property="og:description" content="线性布局 Row 1234567891011121314151617181920212223242526272829import &#39;package:flutter&#x2F;material.dart&#39;;class MyRowContainerWidget extends StatelessWidget {  const MyRowContainerWidget({super.key});  @overri">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Frow.png">
+<meta property="og:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fcolumn.png">
 <meta property="article:published_time" content="2024-08-06T02:04:00.000Z">
-<meta property="article:modified_time" content="2024-08-07T10:11:10.328Z">
+<meta property="article:modified_time" content="2024-08-09T03:07:34.500Z">
 <meta property="article:author" content="苏小妍">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Frow.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -240,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          138 字
         
       </span>
     
@@ -251,7 +256,7 @@
         
         
         
-          1 分钟
+          2 分钟
         
       </span>
     
@@ -301,7 +306,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年8月7日 晚上
+                    本文最后更新于 2024年8月9日 上午
                   
                 
               </p>
@@ -309,7 +314,36 @@
             
               <div class="markdown-body">
                 
-                
+                <h1 id="线性布局">线性布局</h1>
+<h2 id="row">Row</h2>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyRowContainerWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyRowContainerWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Container(<br>      color: Colors.amber,<br>      child: <span class="hljs-keyword">const</span> Row(<br>        mainAxisAlignment: MainAxisAlignment.end, <span class="hljs-comment">// 主轴对齐方式</span><br>        crossAxisAlignment: CrossAxisAlignment.stretch, <span class="hljs-comment">// 交叉轴对齐方式</span><br>        mainAxisSize: MainAxisSize.max, <span class="hljs-comment">// 主轴尺寸</span><br>        children: [<br>          FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          ),<br>          Text(<span class="hljs-string">'哈哈哈'</span>)<br>        ],<br>      ),<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Frow.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="column">Column</h2>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyColumnWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{<br>  <span class="hljs-keyword">const</span> MyColumnWidget({<span class="hljs-keyword">super</span>.key});<br><br>  <span class="hljs-meta">@override</span><br>  Widget build(BuildContext context) {<br>    <span class="hljs-keyword">return</span> Container(<br>      color: Colors.amber,<br>      child: <span class="hljs-keyword">const</span> Column(<br>        mainAxisAlignment: MainAxisAlignment.end, <span class="hljs-comment">// 主轴对齐方式</span><br>        crossAxisAlignment: CrossAxisAlignment.start, <span class="hljs-comment">// 交叉轴对齐方式</span><br>        mainAxisSize: MainAxisSize.min, <span class="hljs-comment">// 主轴尺寸</span><br>        children: [<br>          FlutterLogo(<br>            size: <span class="hljs-number">100</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">200</span>,<br>          ),<br>          FlutterLogo(<br>            size: <span class="hljs-number">300</span>,<br>          ),<br>          Text(<span class="hljs-string">'哈哈哈'</span>)<br>        ],<br>      ),<br>    );<br>  }<br>}<br></code></pre></td></tr></tbody></table></figure>
+<p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/flutter%2Fcolumn.png" srcset="/img/loading.gif" lazyload></p>
+<h1 id="弹性布局-flex">弹性布局 Flex</h1>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<h1 id="流式布局">流式布局</h1>
+<ul>
+<li>Wrap</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>Flow</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<h1 id="层叠布局">层叠布局</h1>
+<ul>
+<li>Stack</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<ul>
+<li>positioned</li>
+</ul>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+<h1 id="对齐与相对定位-align">对齐与相对定位 Align</h1>
+<figure class="highlight dart"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Dart"><br></code></pre></td></tr></tbody></table></figure>
+
                 
               </div>
             
@@ -373,7 +407,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年8月7日</div>
+          <div>2024年8月9日</div>
         </div>
       
       
@@ -404,9 +438,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" title="Flutter">
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/" title="Flutter常用组件 - 基础组件">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Flutter</span>
+                        <span class="hidden-mobile">Flutter常用组件 - 基础组件</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -414,8 +448,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/" title="Flutter常用组件 - 基础组件">
-                        <span class="hidden-mobile">Flutter常用组件 - 基础组件</span>
+                      <a href="/%E6%8A%80%E6%9C%AF%E7%B3%BB%E5%88%97/web%E5%89%8D%E7%AB%AF%E7%B3%BB%E5%88%97/flutter/flutter%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B63/" title="Flutter常用组件 - 容器类组件">
+                        <span class="hidden-mobile">Flutter常用组件 - 容器类组件</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
