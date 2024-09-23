@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Ipad端</title>
+    <link href="/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/ipad%E7%AB%AF/"/>
+    <url>/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/ipad%E7%AB%AF/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>UI知识</category>
+      
+      <category>设计规范</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Web端</title>
+    <link href="/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/web%E7%AB%AF/"/>
+    <url>/ui%E7%B3%BB%E5%88%97/%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/web%E7%AB%AF/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>UI知识</category>
+      
+      <category>设计规范</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Figma</title>
+    <link href="/ui%E7%B3%BB%E5%88%97/Figma/"/>
+    <url>/ui%E7%B3%BB%E5%88%97/Figma/</url>
+    
+    <content type="html"><![CDATA[<h1 id="本地变量">本地变量</h1><ul><li>number : 尺寸、圆角、自动布局属性</li><li>color : 颜色填充</li><li>string : 文本图层、变体属性</li><li>boolean : 开关切换</li></ul><h1 id="快捷键">快捷键</h1><blockquote><p><a href="https://zhuanlan.zhihu.com/p/517253772">figma 快捷键</a></p></blockquote><ul><li><p>搜索文件：<kbd>command + /</kbd></p><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E6%90%9C%E7%B4%A2%E6%96%87%E4%BB%B6.gif"></p></li><li><p>切换icon：<kbd>command + option</kbd></p></li></ul><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E5%88%87%E6%8D%A2icon.gif"></p><ul><li>自动布局：<kbd>shift&nbsp;+ A</kbd></li></ul><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/%E8%87%AA%E5%8A%A8%E5%B8%83%E5%B1%80.gif"></p><ul><li>figma重命名：<kbd>command&nbsp;+ R</kbd></li></ul><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.gif"></p><ul><li>锁定 / 解锁图层：<kbd>command + shift + L</kbd></li></ul><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E9%94%81%E5%AE%9A%E5%9B%BE%E5%B1%82.gif"></p><ul><li>快速折叠侧边栏：<kbd>option + L</kbd></li></ul><p><img src="https://beautiful-folders-1256863744.cos.ap-nanjing.myqcloud.com/images/figma%E5%BF%AB%E9%80%9F%E6%8A%98%E5%8F%A0.gif"></p><ul><li>设计稿拉长距离，内容不变<ul><li>只需要在容器上按住 <strong><code>command</code></strong>键进行拉伸即可</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>UI知识</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
